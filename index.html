@@ -2,76 +2,44 @@
 <html lang="ko">
 
 <head>
-    <!-- Google tag (gtag.js) -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-26SLY2KE9F"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag() { dataLayer.push(arguments); }
-        gtag('js', new Date());
-
-        gtag('config', 'G-26SLY2KE9F');
-    </script>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>국립해양박물관</title>
+    <title>국립해양박물관_프로젝트1</title>
+
+    <link rel="stylesheet" type="text/css" href="./css/jquery.fullPage.css" />
+
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/main.css">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+    <script src="./js/jquery.fullPage.js"></script>
+    <script src="./js/basic.js"></script>
 </head>
 
 <body>
-    <div class="wrap">
-        <header>
-            <div class="header">
-                <div class="container">
-                    <h2>header</h2>
-                </div>
-            </div>
-            <div class="header_nav">
-                <div class="container">
-                    <h2>header_nav</h2>
-                </div>
-            </div>
-            <div class="banner">
-                <div class="container">
-                    <h2>banner</h2>
-                </div>
-            </div>
-        </header>
-        <main>
-            <div class="content_1">
-                <div class="container">
-                    <h2>content_1</h2>
-                </div>
-            </div>
-            <div class="content_2">
-                <div class="container">
-                    <h2>content_2</h2>
-                </div>
-            </div>
-            <div class="content_3">
-                <div class="container">
-                    <h2>content_3</h2>
-                </div>
-            </div>
-            <div class="content_4">
-                <div class="container">
-                    <h2>content_4</h2>
-                </div>
-            </div>
-        </main>
-        <footer>
-            <div class="footer_1">
-                <div class="container">
-                    <h2>footer_1</h2>
-                </div>
-            </div>
-            <div class="footer_2">
-                <div class="container">
-                    <h2>footer_2</h2>
-                </div>
-            </div>
-        </footer>
+    <header>
+        <nav>
+            <ul id="menu">
+                <li class="active"><a href="#section1">section1</a></li>
+                <li><a href="#section2">section2</a></li>
+                <li><a href="#section3">section3</a></li>
+                <li><a href="#section4">section4</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    
+    <div id="wrap">
+        <div class="section">section1</div>
+        <div class="section">section2</div>
+        <div class="section">section3</div>
+        <div class="section">section4</div>
+        <div class="section fp-auto-height">
+            <h2>Footer</h2>
+        </div>
     </div>
+
 </body>
 
 </html>
