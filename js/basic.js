@@ -1,7 +1,7 @@
 $(function(){
     $('#wrap').fullpage({
-        anchors:["section1", "section2", "section3", "section4"],
-        sectionsColor:["blue","purple","yellow","pink"],
+        anchors:["section1", "section2", "section3", "section4", "section5", "section6"],
+        sectionsColor:["#fff","#fff","#fff","#fff","#fff","#fff"],
         navigation:true,
         navigationPosition:'right',
     })

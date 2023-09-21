@@ -203,3 +203,19 @@ a:hover{
     --point1: #8B734B;
     --point2: #00A4B7;
 }
+
+h1,
+--h1 { font-size: 3rem;} 
+
+h2,
+--h2 { font-size: 2.5rem;} 
+
+--title_1 { font-size: 2rem;} 
+
+--main_1 { font-size: 1.6rem;} 
+
+.link,
+--info_1 { font-size: 1.4rem;} 
+
+.caption,
+--info_2 { font-size: 0.9rem;} 
