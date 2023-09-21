@@ -5,7 +5,7 @@ header {
     left: 0;
     right: 0;
     top: 0;
-    background-color: rgba(0, 0, 0, 0.5);
+    background-color:var(--primary);
     z-index: 100;
 }
 
@@ -15,7 +15,7 @@ header ul {
     list-style: none;
 }
 
-header ul a {
+header nav ul#menu a {
     color: white;
     padding: 0 20px;
     margin: 0 10px;
@@ -26,3 +26,4 @@ header ul a {
     text-align: center;
     font-size: 2em;
 }
+

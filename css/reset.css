@@ -3,10 +3,154 @@
 /* 폰트 */
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
-html{
+/* 초기화 코드 */
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
     font-size: 62.5%;
-    overflow-x: hidden;
+    font: inherit;
+    vertical-align: baseline;
+
 }
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+html{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-weight: 400;
+}
+
+body {
+    line-height: 1.75;
+    font-size: 1.6rem;
+    font-family: 'Noto Sans KR', sans-serif;
+    color: #222;
+}
+
+body, a, input, table{
+    font-size: 1.6rem;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* 추가 */
 
 * {
     margin: 0;
@@ -15,15 +159,28 @@ html{
     box-sizing: border-box;
 }
 
-body{
-    line-height: 1.75;
-    font-size: 1.6rem;
-    font-family: 'Noto Sans KR', sans-serif;
-    color: #333;
+ul,
+li,
+lo,
+dt,
+dd,
+dl {
+    list-style: none;
 }
 
-ol, ul{
-    list-style: none;
+a {
+    color: #222;
+    font-size: 1.6rem;
+}
+
+a:link,
+a:visited {
+    color: #222;
+}
+
+img {
+    border: 0;
+    vertical-align: top;
 }
 
 a {
@@ -37,9 +194,12 @@ a:hover{
 
 
 :root {
-    --primary-color: ;
-    --secondary-color: ;
-    --background-color: #fff;
-    --text1-color: #333;
-    --text2-color: #666;
+    --primary: #222;
+    --secondary:#0C2D69;
+    --background: #fff;
+    --text1: #222;
+    --text2: #666;
+    --text3: #888;
+    --point1: #8B734B;
+    --point2: #00A4B7;
 }
