@@ -11,8 +11,10 @@
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/main.css">
 
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
-    <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+
+    <script src="https://code.jquery.com/jquery-2.2.4.js"
+        integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
     <script src="./js/jquery.fullPage.js"></script>
     <script src="./js/basic.js"></script>
 </head>
@@ -21,39 +23,209 @@
     <header>
         <nav>
             <ul id="menuTop">
-                <li class="active"><a href="#">로그인</a></li>
+                <li><a href="#">로그인</a></li>
                 <li><a href="#">회원가입</a></li>
-                <li><a href="#"><img src="" alt="네이버 블로그"></a></li>
-                <li><a href="#"><img src="" alt="유튜브"></a></li>
-                <li><a href="#"><img src="" alt="인스타그램"></a></li>
-                <li><a href="#"><img src="" alt="페이스북"></a></li>
-                <li><a href="#"><strong>해양도서관</strong> 바로가기</a></li>
-            </ul>
+                <li>
+                    <ul class="snsmore">
+                        <li class="sns blog"><a href="https://blog.naver.com/museum4you">네이버 블로그 바로가기</a></li>
+                        <li class="sns youtube"><a href="https://www.youtube.com/channel/UCsJTpbVrC1tMEhRvwpEAW1g">유튜브
+                                바로가기</a></li>
+                        <li class="sns instar"><a href="https://www.instagram.com/_mmkofficial_/">인스타 바로가기</a></li>
+                        <li class="sns face"><a href="https://www.facebook.com/museum4u">페이스북바로가기</a></li>
+                    </ul>
+                </li> <!-- //sns -->
+
+                <li class="nth4"><a href="#"><span>해양도서관</span> 바로가기</a></li>
+                <ul class="language">
+                    <li>
+                        <form action="#" method="get">
+                            <label for="Language"></label>
+                            <select name="언어설정" id="Language">
+                                <option value="Languag">Language</option>
+                                <option value="ENGLISH">ENGLISH</option>
+                                <option value="中文">中文</option>
+                                <option value="日本語">日本語</option>
+                            </select>
+                        </form>
+                    </li>
+                    <li><img src="./img/icon/ic_arrow_w2.png" alt=""></li>
+                    <li><img src="./img/icon/ic_search_w2.png" alt="검색하기"></li>
+                </ul> <!-- 언어 -->
+            </ul> <!-- //첫번째 헤더 -->
+
             <ul class="menuMain">
-                <button class="btnSpan">
-                    <span>전체메뉴열기</span>
-                </button>
-                <a href="https://jinah-ma.github.io/project01/"><img src="./img/icon/logo6.png" alt="MMK국립해양박물관"></a>
-                <li><a href="#">관람정보</a></li>
-                <li><a href="#">전시</a></li>
-                <li><a href="#">교육·문화</a></li>
-                <li><a href="#">소장품</a></li>
-                <li><a href="#">학술연구</a></li>
-                <li><a href="#">발간자료</a></li>
-                <li><a href="#">MMK</a></li>
-            </ul>
+                <button class="btnSpan" type="button">
+                    <span>전체메뉴 열기</span>
+                </button> <!-- 햄버거 버튼 -->
+
+                <a href="https://jinah-ma.github.io/project01/"><img src="./img/icon/logo6_1.png" alt="MMK국립해양박물관"></a>
+                <li>
+                    <ul class="headerText">
+                        <li><a href="#">관람정보</a></li>
+                        <li><a href="#">전시</a></li>
+                        <li><a href="#">교육·문화</a></li>
+                        <li><a href="#">소장품</a></li>
+                        <li><a href="#">학술연구</a></li>
+                        <li><a href="#">발간자료</a></li>
+                        <li><a href="#">MMK</a></li>
+                    </ul>
+                </li>
+            </ul> <!-- //두번째 헤더 -->
         </nav>
     </header>
-    
+
     <div id="wrap">
-        <div class="section mainBanner">section1</div>
-        <div class="section sabBanner">section2</div>
-        <div class="section contentsSlide">section3</div>
+        <div class="section mainBanner">
+            <div class="banner">
+                <a href="#" target="_blank"><img src="./img/main_banner_1.jpg" alt="모두의 바다, 같이의 가치"></a>
+                <a href="#" target="_blank"><img src="./img/main_banner_2.jpg" alt="임진왜란에서 조선통신사의 길로"></a>
+                <a href="#" target="_blank"><img src="./img/main_banner_3.jpg" alt="영도를 부탁해, 강아지를 부탁해"></a>
+                <a href="#" target="_blank"><img src="./img/main_banner_4.jpg" alt="소장품 녹터널 전시"></a>
+                <a href="#" target="_blank"><img src="./img/main_banner_5.jpg" alt="국립해양박물관 소개"></a>
+            </div> <!-- //메인배너 -->
+            <div class="scroll">
+                <p>SCROLL DOWN</p>
+                <a href=""><img src="./img/icon/ic_arrow.png" alt="다음 페이지"></a>
+            </div> <!-- //스크롤다운 -->
+        </div>
+        <!-- //메인배너 -->
+
+
+        <div class="section sabBanner">
+            <div class="topText">
+                <h1><a href="#" target="_blank">전시</a></h1>
+                <div class="cardNum">
+                    <div class="oneCard"><a href="#">1</a></div>
+                    <div class="twoCard"><a href="#">2</a></div>
+                    <div class="threeCard"><a href="#">3</a></div>
+                </div>
+            </div> <!-- 텍스트 -->
+
+            <div class="oneContents">
+                <div class="inner">
+                    <div class="oneText">
+                        <h2>온라인 미디어 기획전시</h2>
+                        <ul class="text_1">
+                            <li>전쟁과 평화 :</li>
+                            <li>임진왜란에서</li>
+                            <li>조선통신사의 길로</li>
+                        </ul>
+                        <a href="#">자세히 보기 &RightArrow;</a>
+                    </div>
+                    <img src="./img/sub_banner_1_1.jpg" alt="">
+                </div>
+            </div> <!-- //첫번째 콘텐츠 -->
+
+            <div class="twoContents">
+                <div class="inner">
+                    <div class="twoText">
+                        <h2>온라인 전시 1</h2>
+                        <ul class="text_2">
+                            <li>고지도,</li>
+                            <li>수평선 너머의</li>
+                            <li>세계를 그리다</li>
+                            <li>온라인 VR투어로 만나보세요!</li>
+                        </ul>
+                        <a href="#">자세히 보기 &RightArrow;</a>
+                    </div>
+                    <img src="./img/sub_banner_2.jpg" alt="">
+                </div>
+            </div> <!-- //두번째 컨텐츠 -->
+
+            <div class="threeContents">
+                <div class="inner">
+                    <div class="threeText">
+                        <h2>온라인 전시 2</h2>
+                        <ul class="text_3">
+                            <li>심연의 상상</li>
+                            <li>실감형미디어아트</li>
+                            <li>VR투어로 만나보세요!</li>
+                        </ul>
+                        <a href="#">자세히 보기 &RightArrow;</a>
+                    </div>
+                    <img src="./img/sub_banner_3_1.jpg" alt="">
+
+                </div>
+            </div> <!-- //세번째 컨텐츠 -->
+
+            <div class="scroll">
+                <p>SCROLL DOWN</p>
+                <a href="#"><img src="./img/icon/ic_arrow2.png" alt="다음 페이지"></a>
+            </div> <!-- //스크롤다운 -->
+        </div>
+        <!-- //서브 배너 -->
+
+        <div class="section contentsSlide">
+            <div class="topText">
+                <h1><a href="#" target="_blank">전시</a></h1>
+                <div class="cardNum">
+                    <div class="oneCard"><a href="#">1</a></div>
+                    <div class="twoCard"><a href="#">2</a></div>
+                    <div class="threeCard"><a href="#">3</a></div>
+                </div>
+            </div> <!-- 텍스트 -->
+
+            <div class="oneContents">
+                <div class="inner">
+                    <img src="./img/contents_slide_1.jpg" alt="">
+                    <div class="oneText">
+                        <h2>모두의 바다,</h2>
+                        <h2>같이의 가치</h2>
+                        <ul class="text_1">
+                            <li>2023.10.04 - 11.29, 매주 수요일 14:00~16:00</li>
+                            <li>강연 8회, 회당 50명 / 비치코밍 1회 30명</li>
+                        </ul>
+                        <a href="#">자세히 보기 &RightArrow;</a>
+                    </div>
+                </div>
+            </div> <!-- //첫번째 콘텐츠 -->
+
+            <div class="twoContents">
+                <div class="inner">
+                    <img src="./img/contents_slide_2.jpg" alt="">
+                    <div class="twoText">
+                        <h2>2023 콜로키움</h2>
+                        <ul class="text_2">
+                            <li>한자로 읽는 바다</li>
+                            <li>2023년 4~9월 매월 마지막 금요일, 총6회</li>
+                            <li>온라인 강연: 국립해양박물관, 한자문명연구소</li>
+                            <li>유튜브 업로드</li>
+                        </ul>
+                        <a href="#">자세히 보기 &RightArrow;</a>
+                    </div>
+                </div>
+            </div> <!-- //두번째 컨텐츠 -->
+
+            <div class="threeContents">
+                <div class="inner">
+                    <img src="./img/contents_slide_3.jpg" alt="">
+                    <div class="threeText">
+                        <h2>교육자료</h2>
+                        <ul class="text_3">
+                            <li>온라인 교육자료실</li>
+                            <li>바다의 역사와 문화에 관한 다양한 교육자료를</li>
+                            <li>제공합니다</li>
+                        </ul>
+                        <a href="#">자세히 보기 &RightArrow;</a>
+                    </div>
+                </div>
+            </div> <!-- //세번째 컨텐츠 -->
+
+            <div class="scroll">
+                <p>SCROLL DOWN</p>
+                <a href="#"><img src="./img/icon/ic_arrow2.png" alt="다음 페이지"></a>
+            </div> <!-- //스크롤다운 -->
+
+        </div>
+
         <div class="section contentsImg">section4</div>
+
         <div class="section news">section5</div>
+
         <div class="section footerInfo">section6</div>
+
         <div class="section fp-auto-height footerMore">
-            <h2>Footer</h2>
+            <h5>Footer</h5>
         </div>
     </div>
 

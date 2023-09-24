@@ -1,7 +1,8 @@
 @charset "utf-8";
 
 /* 폰트 */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 
 /* 초기화 코드 */
 html,
@@ -109,7 +110,7 @@ section {
     display: block;
 }
 
-html{
+html {
     overflow-y: scroll;
     overflow-x: hidden;
     font-weight: 400;
@@ -122,7 +123,10 @@ body {
     color: #222;
 }
 
-body, a, input, table{
+body,
+a,
+input,
+table {
     font-size: 1.6rem;
     font-family: 'Noto Sans KR', sans-serif;
 }
@@ -188,14 +192,14 @@ a {
     color: var(--text1-color);
 }
 
-a:hover{
+a:hover {
     text-decoration: underline;
 }
 
 
 :root {
     --primary: #222;
-    --secondary:#0C2D69;
+    --secondary: #0C2D69;
     --background: #fff;
     --text1: #222;
     --text2: #666;
@@ -205,17 +209,29 @@ a:hover{
 }
 
 h1,
---h1 { font-size: 3rem;} 
+--h1 {
+    font-size: 3rem;
+}
 
 h2,
---h2 { font-size: 2.5rem;} 
+--h2 {
+    font-size: 2.5rem;
+}
 
---title_1 { font-size: 2rem;} 
+--title_1 {
+    font-size: 2rem;
+}
 
---main_1 { font-size: 1.6rem;} 
+--main_1 {
+    font-size: 1.6rem;
+}
 
 .link,
---info_1 { font-size: 1.4rem;} 
+--info_1 {
+    font-size: 1.4rem;
+}
 
 .caption,
---info_2 { font-size: 0.9rem;} 
+--info_2 {
+    font-size: 0.9rem;
+}
