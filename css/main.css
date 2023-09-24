@@ -74,10 +74,10 @@ ul.headerText a:hover { width: inherit; border-bottom: 2px solid #222; margin-to
 .sabBanner { width: 100%; position: relative;}
 
 /* 탑 텍스트 */
-.topText{display: flex; position: absolute; top: 8rem;left: 5rem;}
+.topText{display: flex; position: absolute; top: 8rem; left: 5rem;}
 .topText .cardNum{display: flex; gap: 5rem;}
 
-.topText h1 a{font-size: 2.5rem; user-select: none; text-decoration: none; border-bottom: 10px solid var(--point2); margin-left: 6rem;}
+.topText h1 a{font-size: 2.2rem; user-select: none; text-decoration: none; border-bottom: 10px solid var(--point2); margin-left: 6rem;}
 .topText .cardNum{align-items: center; margin-left: 6rem; user-select: none;}
 .topText .cardNum a{font-size: 1.4rem; text-decoration: none; padding: 1rem; }
 
@@ -120,3 +120,63 @@ ul.headerText a:hover { width: inherit; border-bottom: 2px solid #222; margin-to
 /* 스크롤 다운 2 */
 .sabBanner .scroll { position: absolute; bottom: 0; left: 50%; transform: translate(-50%); cursor: pointer;}
 .sabBanner .scroll p { color: #222; font-size: 14px; margin-left: -2.3rem;}
+
+
+
+/* ======== section3 */
+.contentsSlide { width: 100%; position: relative;}
+
+/* 탑 텍스트 */
+.topText2{display: flex; position: absolute; top: 8rem; right: 7rem;}
+.topText2 .cardNum2{display: flex; gap: 5rem;}
+
+.topText2 h2 a{font-size: 2.2rem; user-select: none; text-decoration: none; border-bottom: 10px solid var(--point2); margin-right: 6rem;}
+.topText2 .cardNum2{align-items: center; margin-right: 6rem; user-select: none;}
+.topText2 .cardNum2 a{font-size: 1.4rem; text-decoration: none; padding: 1rem; }
+
+/* <컨텐츠> */
+/* 1 */
+.oneContents2{position: relative;}
+.oneContents2 .inner{display: flex; justify-content: space-around; margin-top: 15rem;}
+.oneContents2 .oneText2{margin-top: -2rem; }
+.oneText2 h2{font-size: 1.4rem; border-bottom: 1px solid #222; width:33rem; margin-bottom: 2rem;}
+.oneText2 ul.text_2_1 li:nth-child(1), .oneText2 ul.text_2_1 li:nth-child(2){font-size: 3rem; line-height: 1.333; }
+.oneText2 ul.text_2_1 li:nth-child(3), .oneText2 ul.text_2_1 li:nth-child(4){font-size: 1.2rem; line-height: 1.75; color: var(--text3); font-weight: 300;}
+.oneText2 ul.text_2_1 li:nth-child(3){margin-top: 1.5rem;}
+.oneText2 a{font-size: 0.9rem; padding: 1rem; text-decoration: none; border-bottom: 1px solid #222; width: 7.8rem; position: absolute; top:18rem;}
+
+.oneContents2 img{margin-top: -10rem; width: 900px; height: auto; margin-left: -2rem;}
+/* .oneContents2{display: none;} */
+
+/* 2 */
+.twoContents2 {position: absolute; margin-top: -6rem;}
+.twoContents2 .inner{display: flex;}
+
+.twoText2 h2{font-size: 1.4rem; border-bottom: 1px solid #222; width: 8.8rem; margin-bottom: 2rem; margin-left: 6rem; margin-top: -2rem;}
+.twoText2 ul.text_2_2 li:first-child{font-size: 3rem; line-height: 1.333; margin-left: 6rem;}
+.twoText2 ul.text_2_2 li:nth-child(2), .twoText2 ul.text_2_2 li:nth-child(3), .twoText2 ul.text_2_2 li:last-child{font-size: 1.2rem; line-height: 1.75; margin-left:6.5rem; color: var(--text3); font-weight: 300;}
+.twoText2 ul.text_2_2 li:nth-child(2) {margin-top: 1.5rem;}
+.twoText2 a{font-size: 0.9rem; padding: 1rem; text-decoration: none; border-bottom: 1px solid #222; width: 7.8rem; margin-left: 7rem; position: relative; top: 8rem;}
+
+.twoContents2 img{margin-top: -10rem; width: 900px; height: auto; margin-left:10rem;}
+.twoContents2{display: none;}
+
+/* 3 */
+.threeContents2{position: absolute; margin-top: -4.2rem; margin-left: -3.5rem;}
+.threeContents2 .inner{display: flex;}
+.threeContents2 .threeText2{margin-top: -4.2rem; }
+.threeText2 h2{font-size: 1.4rem; border-bottom: 1px solid #222; width: 5.5rem; margin-bottom: 2rem; margin-left: 9.5rem;}
+.threeText2 ul.text_2_3 li:first-child{font-size: 3rem; line-height: 1.333; margin-left: 9.5rem;}
+.threeText2 ul.text_2_3 li:nth-child(2), .threeText2 ul.text_2_3 li:last-child{font-size: 1.2rem; line-height: 1.75; margin-left: 9.5rem; color: var(--text3); font-weight: 300;}
+.threeText2 ul.text_2_3 li:nth-child(2){margin-top: 1.5rem;}
+.threeText2 a{font-size: 0.9rem; padding: 1rem; text-decoration: none; border-bottom: 1px solid #222; width: 7.8rem; margin-left: 9.5rem; position: relative; top: 12rem;}
+
+.threeContents2 img{margin-top: -10rem; width: 900px; height: auto; margin-left: 10rem;}
+.threeContents2{display: none;}
+
+/* 스크롤 다운 2 */
+.contentsSlide .scroll { position: absolute; bottom: 0; left: 50%; transform: translate(-50%); cursor: pointer;}
+.contentsSlide .scroll p { color: #222; font-size: 14px; margin-left:-2.3rem;}
+
+/* ======== 주요소장품 contentsImg */
+
