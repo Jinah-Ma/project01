@@ -7,3 +7,11 @@ $(function(){
     })
 });
 // 높이가 생긴다. 100vh로 잡힌다.(도큐먼트 레디가 이걸로 바뀌었다.★)
+
+$(()=>{
+    $('.close').on('click', function (e) {
+        e.preventDefault();
+        $('.popup').hide();
+    });
+});
+// popup
