@@ -15,7 +15,7 @@ header nav ul#menuTop a { color: #fff; text-decoration: none; padding-right: 16p
 #menuTop li a { font-size: 14px; } 
 
 /* 보더 */
-header nav ul#menuTop>li>a::after { content: ''; border-right: 1px solid; padding-right: 1rem; } 
+header nav ul#menuTop>li>a::after { content: ''; border-right: 1px solid; padding-right: 10px; } 
 
 #menuTop ul.snsmore::after { content: ''; border-right: 1px solid; padding-right: 10px; color: #fff; height: 21px; margin-top: 16px; } 
 
@@ -263,10 +263,10 @@ ul.headerText a:hover { width: inherit; border-bottom: 2px solid #222; margin-to
 .contentsImg { width: 100%; position: relative; } 
 
 /* 타이틀 */
-.contentsImg h2 { margin-left: 55rem; margin-top: 3rem; width: 8rem; margin-bottom: 2rem; border-bottom: 10px solid var(--point2); font-size: 1.6rem; } 
+.contentsImg h2 { margin-left: 55rem; margin-top: 3rem; width: 8rem; margin-bottom: 1.5rem; border-bottom: 10px solid var(--point2); font-size: 1.6rem; } 
 
 /* 사진 그리드 */
-.grid { display: grid; grid-template-columns: repeat(5, 20rem); grid-template-rows: repeat(2, auto); row-gap: 2rem; margin-left: 10rem; user-select: none; } 
+.contentsImg .grid { display: grid; grid-template-columns: repeat(5, 20rem); grid-template-rows: repeat(2, auto); row-gap: 2rem; margin-left: 10rem; user-select: none; } 
 
 .box1 { grid-column: 1/2; } 
 
@@ -300,7 +300,7 @@ ul.headerText a:hover { width: inherit; border-bottom: 2px solid #222; margin-to
 .news h2 { margin-left: 58rem; margin-top:5rem; width: 3rem; margin-bottom: 1.5rem; border-bottom: 10px solid var(--point2); font-size: 1.6rem; } 
 
 /* 그리드 */
-.news .grid { display: grid; grid-template-columns: repeat(2, 630px); grid-template-rows: 24rem 15rem; gap: 2rem 5rem; justify-content: center;} 
+.news .grid { display: grid; grid-template-columns: repeat(2, 630px); grid-template-rows: 24rem 15rem; gap: 2rem 5rem; justify-content: center; margin-left: 11rem;} 
 
 /* 메인뉴스 */
 .mainNews { width: 100%; } 
@@ -360,7 +360,7 @@ ul.headerText a:hover { width: inherit; border-bottom: 2px solid #222; margin-to
 .footerInfo .grid{display: grid; grid-template-columns: repeat(2, 630px); grid-template-rows: repeat(2, 15rem); gap: 2rem 5rem;justify-content: center;}
 
 /* 타이틀 */
-.footerInfo h3{ width: 8rem; font-size: 2rem; user-select: none; border-bottom: 10px solid var(--point2); margin: auto; margin-top: 4rem;}
+.footerInfo h3{ width: 8rem; font-size: 2rem; user-select: none; border-bottom: 10px solid var(--point2); margin: auto; margin-top: 6rem;}
 
 /* 기본 설정 */
 .footerInfo .inner{margin-top: 3rem;}
@@ -368,14 +368,35 @@ ul.headerText a:hover { width: inherit; border-bottom: 2px solid #222; margin-to
 .footerInfo .grid h4{font-size: 1.6rem;}
 .footerInfo .grid p{font-size: 1rem;}
 
-.footerInfo .grid h4 img{margin-top: 0.4rem; margin-right: 1rem;}
+.footerInfo .grid h4 img{margin-top: 0.8rem; margin-right: 1rem; margin-left: 0.5rem;}
 
 .footerInfo .grid h4{width: 35rem; border-bottom: 1px solid rgba(255, 255, 255, .3);}
 
-table{margin-top: 1rem;}
-table tr{font-size: 1rem; line-height: 1.75;}
+table{margin-top: 3rem;}
+table tr{font-size: 1rem; line-height: 1.75; display: flex; justify-content: space-between;}
 table tr td{font-weight: 300;}
 
 /* time테이블_관람시간 */
 .time table{text-align:left; width: 30rem; margin-left: 1rem;}
-.time{ content: ''; border-right: 1px solid rgba(0, 0, 0, .1);}
+.time tr th{ width: 17rem;  border-right: 1px solid rgba(255,255,255,.3);}
+
+/* reast휴관 */
+.reast p{font-weight: 300; width: 33rem; margin-top: 0.5rem;}
+.reast table, .reast p{text-align: left; margin-left: 1rem;}
+.reast table tr th:first-child{width: 13rem; border-right: 1px solid rgba(255,255,255,.3);}
+.reast table tr th:last-child{margin-left: 2rem;}
+
+/* pay관람료 */
+.pay p{margin-left: 1rem; margin-top: 1rem;}
+
+/* question관람문의 */
+.question p{font-weight: 300; width: 33rem; margin-top: 0.5rem;}
+.question table, .question p{text-align: left; margin-left: 1rem;}
+.question table tr th{width: 13rem; border-right: 1px solid rgba(255,255,255,.3);}
+.question table tr td{margin-left: 2rem;}
+
+/* site 사이트 */
+.site{width: 41rem; display: flex; margin: auto; justify-content: space-between;}
+.site a{color: #fff; font-size: 1.2rem; padding: 0.8rem 1rem; border: 1px solid rgba(255,255,255,.3);}
+.site a:hover{text-decoration: none;}
+.site img{margin-top: 0.3rem; margin-right: 1rem;}
