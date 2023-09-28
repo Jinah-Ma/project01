@@ -14,7 +14,7 @@
 
     <title>국립해양박물관_프로젝트1</title>
 
-    <link rel="stylesheet" type="text/css" href="./css/jquery.fullPage.css" />
+    <link rel="stylesheet" type="text/css" href="./css/jquery.fullPage.css">
 
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/main.css">
@@ -44,29 +44,34 @@
                 </li> <!-- //sns -->
 
                 <li class="nth4"><a href="#"><span>해양도서관</span> 바로가기</a></li>
-                <ul class="language">
-                    <li>
-                        <form action="#" method="get">
-                            <label for="Language"></label>
-                            <select name="언어설정" id="Language">
-                                <option value="Languag">Language</option>
-                                <option value="ENGLISH">ENGLISH</option>
-                                <option value="中文">中文</option>
-                                <option value="日本語">日本語</option>
-                            </select>
-                        </form>
-                    </li>
-                    <li><img src="./img/icon/ic_arrow_w2.png" alt=""></li>
-                    <li><img src="./img/icon/ic_search_w2.png" alt="검색하기"></li>
-                </ul> <!-- 언어 -->
+
+                <li>
+                    <ul class="language">
+                        <li>
+                            <button type="button" title="언어설정">Language
+                                <img src="./img/icon/ic_arrow_w2.png" alt="">
+                            </button>
+                            <ul class="Language">
+                                <li><a href="#" target="_blank" title="새창으로 열기">ENGLISH</a></li>
+                                <li><a href="#" target="_blank" title="새창으로 열기">中文</a></li>
+                                <li><a href="#" target="_blank" title="새창으로 열기">日本語</a></li>
+                            </ul>
+                        </li>
+                        <li></li>
+                        <li><img src="./img/icon/ic_search_w2.png" alt="검색하기"></li>
+                    </ul>
+                </li> <!-- 언어 -->
             </ul> <!-- //첫번째 헤더 -->
 
             <ul class="menuMain">
-                <button class="btnSpan" type="button">
-                    <span>전체메뉴 열기</span>
-                </button> <!-- 햄버거 버튼 -->
+                <li>
+                    <button class="btnSpan" type="button">
+                        <span>전체메뉴 열기</span>
+                    </button>
+                </li> <!-- 햄버거 버튼 -->
 
-                <a href="https://jinah-ma.github.io/project01/"><img src="./img/icon/logo6_1.png" alt="MMK국립해양박물관"></a>
+                <li><a href="https://jinah-ma.github.io/project01/"><img src="./img/icon/logo6_1.png"
+                            alt="MMK국립해양박물관"></a></li>
                 <li>
                     <ul class="headerText">
                         <li><a href="#">관람정보</a></li>
@@ -238,7 +243,7 @@
         <div class="section contentsImg">
             <h2>주요 소장품</h2>
             <div class="inner">
-                <div class="grid">
+                <ul class="grid">
                     <li class="box1"><a href="#"><img src="./img/contents_img_1.jpg" alt="이충무공전서"></a>
                         <ul class="boxT">
                             <li class="">이충무공전서</li>
@@ -269,7 +274,7 @@
                             <li>한국 / 1662/ 종이</li>
                         </ul>
                     </li>
-                </div>
+                </ul>
             </div>
             <a href="#" target="_blank" class="lastA">주요 소장품 더보기 &rightarrow;</a>
 
@@ -575,10 +580,130 @@
         <!-- //관람안내 -->
 
         <div class="section fp-auto-height footerMore">
-            <h5>Footer</h5>
-        </div>
-    </div>
+            <div class="inner">
+                <div class="flexRow">
+                    <div class="site">
+                        <button>해양수산전시관<img src="./img/icon/ic_select_arrow.png" alt=""></button>
+                        <ul>
+                            <li><a href="#" target="_blank" title="새창으로 열기">해양수산전시관 네트워크</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">거제조선해양문화관</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">고남패총박물관</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">국립등대박물관</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">국립해양문화재연구소</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">국립해양생물자원관</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">군산근대역사박물관</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">단양 다누리 아쿠아리움</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">당진해양공원</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">독도박물관</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">동삼동패총전시관</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">땅끝해양자연사박물관</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">롯데아쿠아리움</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">목포어린이바다과학관</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">부경대학교 박물관</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">부산아쿠아리움</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">부산해양자연사박물관</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">세계조가비박물관</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">소금박물관</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">수산과학관</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">울산해양박물관</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">울진아쿠아리움</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">장보고기념관</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">장생포고래박물관</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">전라남도해양수산과학관</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">한국해양대학교 해양박물관</a></li>
+                        </ul>
+                    </div> <!-- //site1 -->
+                    
+                    <div class="site">
+                        <button>세계해양박물관<img src="./img/icon/ic_select_arrow.png" alt=""></button>
+                        <ul>
+                            <li><a href="#" target="_blank" title="새창으로 열기">Intermationales Maritimes Museum Hamburg(독일)</a>
+                            </li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">Eesti Meremuseum Estonial Maritime
+                                    Museum(에스토니아)</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">Royal Museums Greenwich(영국)</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">National Maritime Museum in Gdansk(폴란드)</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">Het Scheep vaart museum(네덜란드)</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">Vasa Museet(스웨덴)</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">CENTRAL NAVAL MUSEUM(러시아)</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">Musee oceanographique de Monaco(모나코)</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">American Museum of Natural History(미국)</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">Royal Belgian Institute of Natural
+                                    Sciences(벨기에)</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">Natural History Museum(영국)</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">Naturhistorisches Museum Wien(오스트리아)</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">Australian National Maritime Museum(호주)</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">Maritime Museum of Denmark(덴마크)</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">Maritime Museum of the Atlantic(캐나다)</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">Dubrovnik Museums(크로아티아)</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">National Maritime Museum of Ireland (아일랜드)</a>
+                            </li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">Maritime Museum of San Diego(미국)</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">Patriots Point naval & maritime museum(미국)</a>
+                            </li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">Kobe Maritime Museum(일본)</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">NYK Maritime Museum(일본)</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">Yokohama Port Museum(일본)</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">Norsk Maritime Museum(노르웨이)</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">Bergen Maritime Museum(노르웨이)</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">New Zealand Maritime Museum(뉴질랜드)</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">Vancouver Maritime Museum(캐나다)</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">THE MARITIME MUSEUM OF BRITISH COLUMBIA(캐나다)</a>
+                            </li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">Lake Champlain Maritime Museum(미국)</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">Queensland Maritime Museum(호주)</a></li>
+                        </ul>
+                    </div> <!-- //site2 -->
+                    
+                    <div class="site">
+                        <button>관련기관<img src="./img/icon/ic_select_arrow.png" alt=""></button>
+                        <ul>
+                            <li><a href="#" target="_blank" title="새창으로 열기">한국해양교통안전공단</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">해양수산부</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">한국해양수산개발원</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">한국해양과학기술원</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">극지연구소</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">국립수산과학원</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">해양환경공단</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">한국해양재단</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">한국해양소년단연맹</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">국립해양조사원</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">해양수산과학기술진흥원</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">통일연구원</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">부산항만공사</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">한국수산산업총연합회</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">대한민국역사박물관</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">국립부산국악원</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">해양수산인재개발원</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">국립부산과학관</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">현충사관리소</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">국립해양문화재연구소</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">부산문화재단</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">롯데월드 아쿠아리움</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">벡스코</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">국가해양환경교육센터</a></li>
+                        </ul>
+                    </div> <!-- //site3 -->
+                </div> <!-- //flexRow -->
 
+                <ul class="infoFlex">
+                    <li><a href="#">이용약관</a></li>
+                    <li><a href="#">개인정보처리방침</a></li>
+                    <li><a href="#">영상정보처리기기운영·관리방침</a></li>
+                    <li><a href="#">이메일무단수집거부</a></li>
+                    <li><a href="#">저작권정책</a></li>
+                </ul><!-- //infoFlex -->
+
+                <div class="addressFlex">
+                    <address>49111 부산광역시 영도구 해양로301번길 45 (동삼동 1156)</address>
+                    <a href="#">오시는길</a>
+                </div> <!-- //addressFlex -->
+
+                <p class="font">COPYRIGHTⒸ KOREA NATIONAL MAMEMO MUSEUM. ALL RIGHTS RESERVED.</p>
+
+            </div>
+        </div><!-- //푸터 -->
+    </div>
 </body>
 
 </html>
