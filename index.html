@@ -25,7 +25,7 @@
     <script src="https://code.jquery.com/jquery-2.2.4.js"
         integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
     <script src="./js/jquery.fullPage.js"></script>
-    <script src="./js/basic.js"></script>
+
 
     <!-- 스와이퍼 슬라이드 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.css" />
@@ -150,9 +150,7 @@
                     <img src="./img/icon/main_next.png" alt="다음 페이지">
                 </div>
                 <div class="swiper-pagination"></div>
-                <!-- <div class="swiper-scrollbar"></div> -->
             </div>
-
 
             <div class="scroll">
                 <p>SCROLL DOWN</p>
@@ -166,13 +164,13 @@
             <div class="topText">
                 <h1><a href="#" target="_blank">전시</a></h1>
                 <div class="cardNum">
-                    <div class="oneCard"><a href="#">1</a></div>
-                    <div class="twoCard"><a href="#">2</a></div>
-                    <div class="threeCard"><a href="#">3</a></div>
+                    <div class="font oneCard active">1</div>
+                    <div class="font twoCard">2</div>
+                    <div class="font threeCard">3</div>
                 </div>
             </div> <!-- 텍스트 -->
 
-            <div class="oneContents">
+            <div class="oneContents active">
                 <div class="inner">
                     <div class="oneText">
                         <h2>온라인 미디어 기획전시</h2>
@@ -226,17 +224,18 @@
         </div>
         <!-- //서브 배너/ 전시 -->
 
+
         <div class="section contentsSlide">
             <div class="topText2">
                 <h2><a href="#" target="_blank">교육문화</a></h2>
                 <div class="cardNum2">
-                    <div class="oneCard2"><a href="#">1</a></div>
+                    <div class="oneCard2 active2"><a href="#">1</a></div>
                     <div class="twoCard2"><a href="#">2</a></div>
                     <div class="threeCard2"><a href="#">3</a></div>
                 </div>
             </div> <!-- 텍스트 -->
 
-            <div class="oneContents2">
+            <div class="oneContents2 active2">
                 <div class="inner">
                     <img src="./img/contents_slide_1.jpg" alt="">
                     <div class="oneText2">
@@ -251,7 +250,6 @@
                     </div>
                 </div>
             </div> <!-- //첫번째 콘텐츠 -->
-
             <div class="twoContents2">
                 <div class="inner">
                     <img src="./img/contents_slide_3.jpg" alt="">
@@ -267,7 +265,6 @@
                     </div>
                 </div>
             </div> <!-- //두번째 컨텐츠 -->
-
             <div class="threeContents2">
                 <div class="inner">
                     <img src="./img/contents_slide_2.jpg" alt="">
@@ -768,6 +765,7 @@
     <!-- 스와이퍼 -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="./js/swiper.js"></script>
+    <script src="./js/basic.js"></script>
 </body>
 
 </html>

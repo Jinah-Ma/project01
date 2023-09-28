@@ -345,8 +345,8 @@ ul.headerText a:hover {
 
 }
 /* 숫자위치이동 */
-.swiper-pagination-bullets.swiper-pagination-horizontal{left: -30.5rem !important; bottom: 6.5rem !important;}
-.swiper-pagination-bullets.swiper-pagination-horizontal span{margin-left: 8px !important;}
+.swiper-pagination-bullets.swiper-pagination-horizontal{left: 19rem !important; bottom: 6.5rem !important; width: auto !important;}
+.swiper-pagination-bullets.swiper-pagination-horizontal span{margin-left: 18px !important;}
 
 .mainBanner.swiper {
     margin-left: auto;
@@ -358,16 +358,18 @@ ul.headerText a:hover {
 .controll-box1 .swiper-button-play{position: absolute; top: 48rem; left: 12rem; z-index: 9999; background-color: #222; display: none; cursor: pointer;}
 
 /* 좌우버튼 */
-.controll-box1 .swiper-button-prev::after{display: none;}
-.controll-box1 .swiper-button-prev{position: absolute; padding-left: 1.2rem; padding-right: 1.2rem; top: 49.35rem; left: 9rem; background-color: #222; cursor: pointer;}
-.controll-box1 .swiper-button-next::after{display: none;}
-.controll-box1 .swiper-button-next{position: absolute; padding-left: 1.2rem; padding-right: 1.2rem; top: 49.35rem; left: 15.2rem; background-color: #222; cursor: pointer;}
+.swiper-button-prev::after{display: none;}
+.swiper-button-prev{ padding-left: 1.2rem; padding-right: 1.2rem;  background-color: #222; margin-top: 0 !important; top: 48rem !important; left: 9rem !important;}
+.swiper-button-next::after{display: none;}
+.swiper-button-next{padding-left: 1.2rem; padding-right: 1.2rem;  background-color: #222; margin-top: 0 !important; top: 48rem !important; right: 102.5rem !important;}
 
 /* 메인배너 문구 */
 .banner .swiper-slide p{position: absolute; color: #fff; font-size: 0.9rem; bottom: 4rem; left: 9rem; border-top: 1px solid #fff; padding-top: 0.2rem; width: 10rem;}
 
-.banner .swiper-slide .C_Text p{ position: initial; border: none; font-size: 1.6rem;}
-.banner .swiper-slide .C_Text{ z-index: 9 !important; position: absolute; top: 10rem; right: 10rem;}
+.banner .swiper-slide .C_Text p{ position: initial; border: none; font-size: 1.2rem; width: 14rem; }
+.banner .swiper-slide .C_Text{ z-index: 9 !important; position: absolute; top: 20rem; right: 48rem;}
+.banner .swiper-slide .C_Text p:nth-child(2){font-size: 3.3rem; }
+.banner .swiper-slide .C_Text p:nth-child(1){border-bottom: 1px solid #fff; width: 3.5rem; padding-bottom: 0.2rem;}
 
 
 /* 스크롤 다운 1 */
@@ -421,10 +423,11 @@ ul.headerText a:hover {
     user-select: none;
 }
 
-.topText .cardNum a {
+.topText .cardNum .font {
     font-size: 1.4rem;
     text-decoration: none;
-    padding: 1rem;
+    padding: 0.6rem 1rem;
+    cursor: pointer;
 }
 
 /* <컨텐츠> */
@@ -480,7 +483,7 @@ ul.headerText a:hover {
 /* 2 */
 .twoContents {
     position: absolute;
-    margin-top: -9rem;
+    margin-top: -10rem;
     margin-left: 13.5rem;
     user-select: none;
 }
@@ -494,19 +497,19 @@ ul.headerText a:hover {
     border-bottom: 1px solid #222;
     width: 13.8rem;
     margin-bottom: 2rem;
-    margin-left: 2rem;
+    margin-left: 4rem;
 }
 
 .twoText ul.text_2 li {
     font-size: 3rem;
     line-height: 1.333;
-    margin-left: 2rem;
+    margin-left: 4rem;
 }
 
 .twoText ul.text_2 li:last-child {
     font-size: 1.2rem;
     line-height: 1.75;
-    margin-left: 2.2rem;
+    margin-left: 4.2rem;
     color: var(--text3);
     font-weight: 300;
 }
@@ -519,7 +522,7 @@ ul.headerText a:hover {
     width: 7.8rem;
     margin-left: 17rem;
     position: relative;
-    top: 8rem;
+    top: 4rem;
 }
 
 .twoContents img {
@@ -536,7 +539,7 @@ ul.headerText a:hover {
 /* 3 */
 .threeContents {
     position: absolute;
-    margin-top: -4.7rem;
+    margin-top: -5.7rem;
     margin-left: 13.5rem;
     user-select: none;
 }
@@ -579,7 +582,7 @@ ul.headerText a:hover {
     width: 7.8rem;
     margin-left: 17rem;
     position: relative;
-    top: 12rem;
+    top: 8rem;
 }
 
 .threeContents img {
@@ -609,7 +612,6 @@ ul.headerText a:hover {
     margin-left: -2.3rem;
     user-select: none;
 }
-
 
 
 /* ======== section3 교육문화 */
@@ -715,7 +717,7 @@ ul.headerText a:hover {
 /* 2 */
 .twoContents2 {
     position: absolute;
-    margin-top: -6rem;
+    margin-top: -8rem;
     user-select: none;
 }
 
@@ -760,7 +762,7 @@ ul.headerText a:hover {
     width: 7.8rem;
     margin-left: 7rem;
     position: relative;
-    top: 8rem;
+    top: 3.5rem;
 }
 
 .twoContents2 img {
@@ -777,7 +779,7 @@ ul.headerText a:hover {
 /* 3 */
 .threeContents2 {
     position: absolute;
-    margin-top: -4.2rem;
+    margin-top: -6.2rem;
     margin-left: -3.5rem;
     user-select: none;
 }
@@ -825,7 +827,7 @@ ul.headerText a:hover {
     width: 7.8rem;
     margin-left: 9.5rem;
     position: relative;
-    top: 12rem;
+    top: 6rem;
 }
 
 .threeContents2 img {
