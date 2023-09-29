@@ -116,6 +116,7 @@ header nav #menuTop li.nth4 a span {
     position: relative;
     width: 120px;
     text-align: start;
+    cursor: pointer;
 }
 
 .language li button img {
@@ -129,16 +130,17 @@ header nav #menuTop li.nth4 a span {
     background-color: #fff;
     z-index: 999;
     width: 110px;
-    top: 45px;
+    top: 43px;
     display: flex;
     flex-direction: column;
+    border: 1px solid #222;
 }
 
-.language ul.Language li a {
+ul.Language li a {
     color: #222 !important;
     display: block;
     z-index: 99999;
-    text-align: center;
+    margin-left: 0.5rem;
     display: none;
 }
 
@@ -323,8 +325,9 @@ ul.headerText a:hover {
     display: block;
     width: 100%;
     height: 110vh;
-    object-fit:cover
+    object-fit: cover
 }
+
 /* 페이지 숫자 */
 .swiper-pagination-bullet {
     width: 55px !important;
@@ -344,9 +347,17 @@ ul.headerText a:hover {
     border: 1px solid #222 !important;
 
 }
+
 /* 숫자위치이동 */
-.swiper-pagination-bullets.swiper-pagination-horizontal{left: 19rem !important; bottom: 6.5rem !important; width: auto !important;}
-.swiper-pagination-bullets.swiper-pagination-horizontal span{margin-left: 18px !important;}
+.swiper-pagination-bullets.swiper-pagination-horizontal {
+    left: 19rem !important;
+    bottom: 6.5rem !important;
+    width: auto !important;
+}
+
+.swiper-pagination-bullets.swiper-pagination-horizontal span {
+    margin-left: 18px !important;
+}
 
 .mainBanner.swiper {
     margin-left: auto;
@@ -354,22 +365,87 @@ ul.headerText a:hover {
 }
 
 /* 재생정지버튼 */
-.controll-box1 .swiper-button-pause{position: absolute; top: 48rem; left: 12rem; z-index: 9999; background-color: #222; cursor: pointer;}
-.controll-box1 .swiper-button-play{position: absolute; top: 48rem; left: 12rem; z-index: 9999; background-color: #222; display: none; cursor: pointer;}
+.controll-box1 .swiper-button-pause {
+    position: absolute;
+    top: 48rem;
+    left: 12rem;
+    z-index: 9999;
+    background-color: #222;
+    cursor: pointer;
+}
+
+.controll-box1 .swiper-button-play {
+    position: absolute;
+    top: 48rem;
+    left: 12rem;
+    z-index: 9999;
+    background-color: #222;
+    display: none;
+    cursor: pointer;
+}
 
 /* 좌우버튼 */
-.swiper-button-prev::after{display: none;}
-.swiper-button-prev{ padding-left: 1.2rem; padding-right: 1.2rem;  background-color: #222; margin-top: 0 !important; top: 48rem !important; left: 9rem !important;}
-.swiper-button-next::after{display: none;}
-.swiper-button-next{padding-left: 1.2rem; padding-right: 1.2rem;  background-color: #222; margin-top: 0 !important; top: 48rem !important; right: 102.5rem !important;}
+.swiper-button-prev::after {
+    display: none;
+}
+
+.swiper-button-prev {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    background-color: #222;
+    margin-top: 0 !important;
+    top: 48rem !important;
+    left: 9rem !important;
+}
+
+.swiper-button-next::after {
+    display: none;
+}
+
+.swiper-button-next {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
+    background-color: #222;
+    margin-top: 0 !important;
+    top: 48rem !important;
+    right: 102.5rem !important;
+}
 
 /* 메인배너 문구 */
-.banner .swiper-slide p{position: absolute; color: #fff; font-size: 0.9rem; bottom: 4rem; left: 9rem; border-top: 1px solid #fff; padding-top: 0.2rem; width: 10rem;}
+.banner .swiper-slide p {
+    position: absolute;
+    color: #fff;
+    font-size: 0.9rem;
+    bottom: 4rem;
+    left: 9rem;
+    border-top: 1px solid #fff;
+    padding-top: 0.2rem;
+    width: 10rem;
+}
 
-.banner .swiper-slide .C_Text p{ position: initial; border: none; font-size: 1.2rem; width: 14rem; }
-.banner .swiper-slide .C_Text{ z-index: 9 !important; position: absolute; top: 20rem; right: 48rem;}
-.banner .swiper-slide .C_Text p:nth-child(2){font-size: 3.3rem; }
-.banner .swiper-slide .C_Text p:nth-child(1){border-bottom: 1px solid #fff; width: 3.5rem; padding-bottom: 0.2rem;}
+.banner .swiper-slide .C_Text p {
+    position: initial;
+    border: none;
+    font-size: 1.2rem;
+    width: 14rem;
+}
+
+.banner .swiper-slide .C_Text {
+    z-index: 9 !important;
+    position: absolute;
+    top: 20rem;
+    right: 48rem;
+}
+
+.banner .swiper-slide .C_Text p:nth-child(2) {
+    font-size: 3.3rem;
+}
+
+.banner .swiper-slide .C_Text p:nth-child(1) {
+    border-bottom: 1px solid #fff;
+    width: 3.5rem;
+    padding-bottom: 0.2rem;
+}
 
 
 /* 스크롤 다운 1 */
@@ -380,6 +456,7 @@ ul.headerText a:hover {
     transform: translate(-50%);
     cursor: pointer;
     user-select: none;
+    z-index: 999;
 }
 
 .mainBanner .scroll p {
@@ -964,6 +1041,7 @@ ul.headerText a:hover {
     margin-bottom: 1.5rem;
     border-bottom: 10px solid var(--point2);
     font-size: 1.6rem;
+    user-select: none;
 }
 
 /* 그리드 */
@@ -979,6 +1057,10 @@ ul.headerText a:hover {
 /* 메인뉴스 */
 .mainNews {
     width: 100%;
+}
+
+.mainNews h3 {
+    user-select: none;
 }
 
 .mainNews .title ul {
@@ -1067,6 +1149,7 @@ ul.headerText a:hover {
 .mainPopup {
     width: 100%;
     position: relative;
+    user-select: none;
 }
 
 .mainPopup h3 {
@@ -1075,13 +1158,22 @@ ul.headerText a:hover {
     margin-bottom: 0.6rem;
 }
 
-.mainPopup .slidePopup li {
-    position: absolute;
-}
-
-.mainPopup .slidePopup li:not(:first-child) {
+.mainPopup .slide-item2, .mainPopup .slide-item3 {
     display: none;
 }
+
+/* 슬라이드 구현 */
+.slider2 {
+    width: 35rem;
+    height: auto;
+    display: flex;
+    overflow: hidden;
+}
+
+.controll-box2 {display: flex; position: absolute; top: 0.3rem; left: 3rem; gap: 1rem;}
+.controll-box2 .play {display: none;}
+
+
 
 /* 영상/카드 뉴스 */
 .mainCardNews h3 {
@@ -1305,25 +1397,25 @@ table tr td {
 }
 
 /* site 사이트 */
-.site {
+.siteMore {
     width: 41rem;
     display: flex;
     margin: auto;
     justify-content: space-between;
 }
 
-.site a {
+.siteMore a {
     color: #fff;
     font-size: 1.2rem;
     padding: 0.8rem 1rem;
     border: 1px solid rgba(255, 255, 255, .3);
 }
 
-.site a:hover {
+.siteMore a:hover {
     text-decoration: none;
 }
 
-.site img {
+.siteMore img {
     margin-top: 0.3rem;
     margin-right: 1rem;
 }
@@ -1360,6 +1452,8 @@ table tr td {
     text-align: center;
     padding: 0.5rem;
     cursor: pointer;
+    position: relative;
+    width: 26.7rem;
 }
 
 .flexRow .site button img {
@@ -1368,8 +1462,47 @@ table tr td {
     margin-top: 0.4rem;
 }
 
-.flexRow .site ul {
+.flexRow .site1 ul {
     display: none;
+    position: absolute;
+    bottom: 9.5rem;
+    line-height: 1;
+    background-color: #fff;
+    width: 26.7rem;
+    height: 30rem;
+    border: 1px solid #222;
+    padding-bottom: 1rem;
+    overflow-y: scroll;
+}
+
+.flexRow .site ul a{
+    font-size: 0.9rem;
+    margin-left: 1rem;
+    
+}
+.flexRow .site2 ul {
+    display: none;
+    position: absolute;
+    bottom: 9.5rem;
+    line-height: 1;
+    background-color: #fff;
+    width: 26.7rem;
+    height: 30rem;
+    border: 1px solid #222;
+    padding-bottom: 1rem;
+    overflow-y: scroll;
+}
+.flexRow .site3 ul {
+    display: none;
+    position: absolute;
+    bottom: 9.5rem;
+    line-height: 1;
+    background-color: #fff;
+    width: 26.7rem;
+    height: 30rem;
+    border: 1px solid #222;
+    padding-bottom: 1rem;
+    overflow-y: scroll;
 }
 
 /* infoFlex */
