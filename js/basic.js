@@ -11,9 +11,22 @@ $(function () {
         sectionsColor: ["#fff", "#fff", "#fff", "#fff", "#fff", "#fff"],
         navigation: true,
         navigationPosition: 'right',
+        
     })
 });
-// 높이가 생긴다. 100vh로 잡힌다.(도큐먼트 레디가 이걸로 바뀌었다.★)
+
+/* 햄버거메뉴 */
+const hMBtn = $('.menuMain li button.btnSpan');
+const hamMenu = $('.hamMenu');
+const closeBtn = $('.hamMenu .overay>img');
+
+hMBtn.on('click', function(){
+    hamMenu.toggle();
+})
+closeBtn.on('click', function(){
+    hamMenu.toggle();
+})
+
 
 $(() => {
     $('.close').on('click', function (e) {
@@ -21,6 +34,10 @@ $(() => {
         $('.popup').hide();
     });
 });
+
+/* 스크롤다운 다음페이지 넘어가기 */
+
+
 
 /* 서브배너/ 전시 */
 let slideBtn1 = $('.sabBanner .oneCard');
