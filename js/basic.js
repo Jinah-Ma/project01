@@ -11,7 +11,7 @@ $(function () {
         sectionsColor: ["#fff", "#fff", "#fff", "#fff", "#fff", "#fff"],
         navigation: true,
         navigationPosition: 'right',
-        navigationTooltips: ['TOP','전시','교육문화','주요소장품','알림','관람안내','정보']
+        navigationTooltips: ['▲TOP','전시','교육문화','주요소장품','알림','관람안내','정보'],
     })
 });
 

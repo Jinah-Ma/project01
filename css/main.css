@@ -38,6 +38,13 @@ body { position: relative; height: 100vh; width: 100%; }
 .hamMenu img{position: absolute; right: 5rem; top: 2rem; cursor: pointer;}
 
 
+/* ======== fp-nav =========== */
+#fp-nav .fp-tooltip{display: flex !important; justify-content: center; overflow: initial !important; background-color: #222; opacity: 1 !important; width: 100px !important; height: 2.4rem; align-items: center; font-size: 1rem !important; right: 0 !important; font-family: 'Noto Sans KR', sans-serif !important; padding: 1.2rem 0;}
+
+#fp-nav a {display: flex !important; z-index: 0 !important;}
+#fp-nav li {margin-bottom: 1rem !important;}
+
+
 /*============= header =============*/
 header { position: fixed; left: 0; right: 0; top: 0; background-color: var(--primary); z-index: 100; } 
 
