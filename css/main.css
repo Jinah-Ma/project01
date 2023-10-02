@@ -91,7 +91,7 @@ a:focus {
     display: block;
     width: 12rem;
     font-size: 1.4rem;
-    border-bottom: 2px solid var(--point2);
+    border-bottom: 2px solid #00A4B7;
     padding-top: 1rem;
 }
 
@@ -195,7 +195,7 @@ header {
     left: 0;
     right: 0;
     top: 0;
-    background-color: var(--primary);
+    background-color: #222;
     z-index: 100;
 }
 
@@ -447,7 +447,7 @@ ul.headerText a:hover {
     transform: translateX(-50%);
     border-radius: 10px;
     backdrop-filter: blur(20px);
-    box-shadow: 0px 0px 5px var(--text1)
+    box-shadow: 0px 0px 5px #222;
 }
 
 .popup .textbox {
@@ -520,8 +520,8 @@ ul.headerText a:hover {
     font-size: 1.2rem;
     color: #222 !important;
     opacity: 1 !important;
-    background: #ffffffa2 !important;
-    border: 1px solid #ffffffa2 !important;
+    background: rgba(255, 255, 255, .8) !important;
+    border: 1px solid rgba(255, 255, 255, .8) !important;
 }
 
 .swiper-pagination-bullet-active {
@@ -674,7 +674,7 @@ ul.headerText a:hover {
     font-size: 2.2rem;
     user-select: none;
     text-decoration: none;
-    border-bottom: 10px solid var(--point2);
+    border-bottom: 10px solid #00A4B7;
     margin-left: 6rem;
 }
 
@@ -769,7 +769,7 @@ ul.headerText a:hover {
     font-size: 1.2rem;
     line-height: 1.75;
     margin-left: 4.2rem;
-    color: var(--text3);
+    color: #888;
     font-weight: 300;
 }
 
@@ -829,7 +829,7 @@ ul.headerText a:hover {
     font-size: 1.2rem;
     line-height: 1.75;
     margin-left: 2.2rem;
-    color: var(--text3);
+    color: #888;
     font-weight: 300;
 }
 
@@ -897,7 +897,7 @@ ul.headerText a:hover {
     font-size: 2.2rem;
     user-select: none;
     text-decoration: none;
-    border-bottom: 10px solid var(--point2);
+    border-bottom: 10px solid #00A4B7;
     margin-right: 6rem;
 }
 
@@ -947,7 +947,7 @@ ul.headerText a:hover {
 .oneText2 ul.text_2_1 li:nth-child(4) {
     font-size: 1.2rem;
     line-height: 1.75;
-    color: var(--text3);
+    color: #888;
     font-weight: 300;
 }
 
@@ -1006,7 +1006,7 @@ ul.headerText a:hover {
     font-size: 1.2rem;
     line-height: 1.75;
     margin-left: 6.5rem;
-    color: var(--text3);
+    color: #888;
     font-weight: 300;
 }
 
@@ -1071,7 +1071,7 @@ ul.headerText a:hover {
     font-size: 1.2rem;
     line-height: 1.75;
     margin-left: 9.5rem;
-    color: var(--text3);
+    color: #888;
     font-weight: 300;
 }
 
@@ -1130,7 +1130,7 @@ ul.headerText a:hover {
     margin-top: 3rem;
     width: 8rem;
     margin-bottom: 1.5rem;
-    border-bottom: 10px solid var(--point2);
+    border-bottom: 10px solid #00A4B7;
     font-size: 1.6rem;
 }
 
@@ -1184,8 +1184,8 @@ ul.headerText a:hover {
     font-size: 0.9rem;
     margin-left: 55rem;
     padding: 0.6rem 1rem;
-    border: 1px solid #888888a2;
-    color: var(--text2);
+    border: 1px solid rgba(0, 0, 0, .5);
+    color: #666;
 }
 
 /* 스크롤 다운 4 */
@@ -1222,7 +1222,7 @@ ul.headerText a:hover {
     margin-top: 5rem;
     width: 3rem;
     margin-bottom: 1.5rem;
-    border-bottom: 10px solid var(--point2);
+    border-bottom: 10px solid #00A4B7;
     font-size: 1.6rem;
     user-select: none;
 }
@@ -1483,7 +1483,7 @@ ul.headerText a:hover {
     width: 8rem;
     font-size: 2rem;
     user-select: none;
-    border-bottom: 10px solid var(--point2);
+    border-bottom: 10px solid #00A4B7;
     margin: auto;
     margin-top: 6rem;
     margin-left: 48.5%;
@@ -1719,7 +1719,7 @@ table tr td {
 }
 
 .infoFlex li:nth-child(2) a {
-    color: var(--point2);
+    color: #00A4B7;
     font-weight: 600;
 }
 
@@ -1737,7 +1737,7 @@ table tr td {
 
 .addressFlex a {
     font-weight: 600;
-    color: var(--point2);
+    color:#666;
 }
 
 .addressFlex a::before {
