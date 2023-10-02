@@ -1289,6 +1289,9 @@ ul.headerText a:hover {
     width: 7rem;
     height: 3.5rem;
     border: 1px solid #222;
+    border-bottom: none;
+    border-right: none;
+
     text-align: center;
     padding-top: 0.7rem;
 }
@@ -1296,6 +1299,10 @@ ul.headerText a:hover {
 .titleH3 h3:first-child {
     background-color: #222;
     color: #fff;
+}
+
+.titleH3 h3#title5 {
+    border-right: 1px solid #222;
 }
 
 .titleH3 img {
