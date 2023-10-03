@@ -14,10 +14,9 @@ a {
 }
 
 a:focus {
-    width: auto; border: 2px dotted #222;
+    width: auto;
+    border: 2px dotted #222;
 }
-
-
 
 /* ============ 햄버거메뉴 ============= */
 /* 클래스 햄버거 추가 */
@@ -1169,6 +1168,23 @@ ul.headerText a:hover {
     grid-row: 2/3;
 }
 
+.box1 a:focus,
+.box2 a:focus,
+.box4 a:focus,
+.box5 a:focus {
+    display: block;
+    width: 309px;
+    height: 206px;
+    border: 3px dotted #222;
+}
+
+.box3 a:focus {
+    display: block;
+    width: 515px;
+    height: 500px;
+    border: 3px dotted #222;
+}
+
 /* 사진 설명 */
 .grid .boxT li:first-child {
     font-size: 1.2rem;
@@ -1186,6 +1202,10 @@ ul.headerText a:hover {
     padding: 0.6rem 1rem;
     border: 1px solid rgba(0, 0, 0, .5);
     color: #666;
+}
+
+.contentsImg a.lastA:focus {
+    border: 3px dotted #222;
 }
 
 /* 스크롤 다운 4 */
@@ -1242,6 +1262,10 @@ ul.headerText a:hover {
     width: 100%;
 }
 
+.mainNews h3 a {
+    font-size: 1rem;
+}
+
 .mainNews h3 {
     user-select: none;
 }
@@ -1291,14 +1315,20 @@ ul.headerText a:hover {
     border: 1px solid #222;
     border-bottom: none;
     border-right: none;
-
     text-align: center;
     padding-top: 0.7rem;
 }
 
 .titleH3 h3:first-child {
     background-color: #222;
+}
+
+.titleH3 h3:first-child a {
     color: #fff;
+}
+
+.titleH3 h3:first-child a:focus {
+    border: 2px dotted #ffffff;
 }
 
 .titleH3 h3#title5 {
@@ -1353,6 +1383,13 @@ ul.headerText a:hover {
     margin-bottom: 0.6rem;
 }
 
+.mainPopup .swiper-slide a:focus {
+    display: inline-block;
+    width: 566px;
+    height: 348px;
+    border: 3px dotted #222;
+}
+
 /* 슬라이드 구현 */
 
 .controll-box2 {
@@ -1371,7 +1408,6 @@ ul.headerText a:hover {
 .controll-box2 .play2 {
     display: none;
 }
-
 
 
 /* 영상/카드 뉴스 */
@@ -1403,6 +1439,13 @@ ul.headerText a:hover {
     margin-top: -1.4rem;
 }
 
+.mainCardNews .cardFlex ul a:focus {
+    display: block;
+    width: 164px;
+    height: 164px;
+}
+
+
 /* 뉴스레터 */
 .mainNewsLetter h3 {
     font-size: 1.2rem;
@@ -1424,6 +1467,12 @@ ul.headerText a:hover {
 .mainNewsLetter .cardFlex ul li img {
     width: 8rem;
     margin-bottom: 0.7rem;
+}
+
+.mainNewsLetter .cardFlex ul a:focus {
+    display: block;
+    width: 8.3rem;
+    height: 8.2rem;
 }
 
 .mainNewsLetter .cardFlex ul li:last-child {
@@ -1605,7 +1654,7 @@ table tr td {
     margin: auto;
     justify-content: space-between;
     margin-left: 48.5%;
-   transform: translate(-50%); 
+    transform: translate(-50%);
 }
 
 .siteMore a {
@@ -1622,6 +1671,13 @@ table tr td {
 .siteMore img {
     margin-top: 0.3rem;
     margin-right: 1rem;
+}
+
+.siteMore a:focus {
+    display: block;
+    width: auto;
+    height: 61px;
+    border: 2px dotted #fff;
 }
 
 /* =========== footerMore 푸터 주요정보들과 사이트들 */
@@ -1744,7 +1800,7 @@ table tr td {
 
 .addressFlex a {
     font-weight: 600;
-    color:#666;
+    color: #666;
 }
 
 .addressFlex a::before {

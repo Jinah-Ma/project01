@@ -158,6 +158,7 @@ newBtnObj.on('click', function () {
     let index = newBtnObj.index(this);
     $(this).addClass('on');
     newsObj.eq(index).addClass('on');
+    $(this).find('a').css('color', '#fff');
     $(this).css('color', '#fff');
     $(this).css('background-color', '#222');
     newsObj.eq(index).css('display', 'block');
@@ -165,6 +166,7 @@ newBtnObj.on('click', function () {
 
     newBtnObj.not(this).removeClass('on');
     newsObj.not(newsObj.eq(index)).removeClass('on');
+    newBtnObj.not(this).find('a').css('color', '#222');
     newBtnObj.not(this).css('color', '#222');
     newBtnObj.not(this).css('background-color', '#fff');
     newsObj.not(newsObj.eq(index)).css('display', 'none');
