@@ -5,6 +5,7 @@ body {
     position: relative;
     height: 100vh;
     width: 100%;
+    min-width: 1240px;
 }
 
 /* ======= 스킵메뉴 ========= */
@@ -190,6 +191,8 @@ a:focus {
 
 /*============= header =============*/
 header {
+    width: 100%;
+    min-width: 1240px;
     position: fixed;
     left: 0;
     right: 0;
@@ -336,6 +339,7 @@ ul.Language li a {
 /* ====== header menuMain (두번째 헤더) */
 header nav ul.menuMain {
     width: 100%;
+    min-width: 1240px;
     height: 90px;
     background-color: #fff;
     justify-content: space-between;
@@ -424,11 +428,13 @@ ul.headerText a:hover {
 /* ========= wrap ================== */
 #wrap {
     width: 100%;
+    min-width: 1240px;
     height: 100vh;
 }
 
 .inner {
     max-width: 1600px;
+    min-width: 1240px;
     height: auto;
     margin: auto;
 }
@@ -531,8 +537,8 @@ ul.headerText a:hover {
 
 /* 숫자위치이동 */
 .swiper-pagination-bullets.swiper-pagination-horizontal {
-    left: 19rem !important;
-    bottom: 6.5rem !important;
+    left: 304px !important;
+    bottom: 104px !important;
     width: auto !important;
 }
 
@@ -548,8 +554,8 @@ ul.headerText a:hover {
 /* 재생정지버튼 */
 .controll-box1 .swiper-button-pause {
     position: absolute;
-    top: 48rem;
-    left: 12rem;
+    top: 768px;
+    left: 192px;
     z-index: 9999;
     background-color: #222;
     cursor: pointer;
@@ -557,8 +563,8 @@ ul.headerText a:hover {
 
 .controll-box1 .swiper-button-play {
     position: absolute;
-    top: 48rem;
-    left: 12rem;
+    top: 768px;
+    left: 192px;
     z-index: 9999;
     background-color: #222;
     display: none;
@@ -575,8 +581,8 @@ ul.headerText a:hover {
     padding-right: 1.2rem;
     background-color: #222;
     margin-top: 0 !important;
-    top: 48rem !important;
-    left: 9rem !important;
+    top: 768px !important;
+    left: 144px !important;
 }
 
 .swiper-button-next::after {
@@ -588,8 +594,8 @@ ul.headerText a:hover {
     padding-right: 1.2rem;
     background-color: #222;
     margin-top: 0 !important;
-    top: 48rem !important;
-    right: 102.5rem !important;
+    top: 768px !important;
+    right: 1620px !important;
 }
 
 /* 메인배너 문구 */
