@@ -36,16 +36,16 @@ $(() => {
 });
 
 /* 햄버거 메뉴 애니메이션 */
-// let btnSpan = $('.menuMain button span')
-// let btnT = $('.menuMain button span::before');
-// let btnB = $('.menuMain button span::after');
+let btnSpan = $('.menuMain button span')
+let btnT = $('.menuMain button span::before');
+let btnB = $('.menuMain button span::after');
 
-// btnSpan.on(
-//     'mouseEnter', function(){
-//         btnT.css('left', '0'),
-//         btnB.css('left', '0');
-//     }
-// )
+btnSpan.on(
+    'mouseenter', function(){
+        btnT.css('left', '0');
+        btnB.css('left', '0');
+    }
+)
 
 
 
