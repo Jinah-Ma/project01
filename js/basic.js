@@ -1,5 +1,5 @@
 /* 언어설정 */
-$('.language button').on('click', function(){
+$('.language button').on('click', function () {
     $('ul.Language li a').toggle();
 
 })
@@ -11,7 +11,7 @@ $(function () {
         sectionsColor: ["#fff", "#fff", "#fff", "#fff", "#fff", "#fff"],
         navigation: true,
         navigationPosition: 'right',
-        navigationTooltips: ['▲TOP','전시','교육문화','주요소장품','알림','관람안내','정보'],
+        navigationTooltips: ['▲TOP', '기획전시', '교육문화', '주요소장품', '알림', '관람안내', '정보'],
     })
 });
 
@@ -20,10 +20,10 @@ const hMBtn = $('.menuMain li button.btnSpan');
 const hamMenu = $('.hamMenu');
 const closeBtn = $('.hamMenu .overay>img');
 
-hMBtn.on('click', function(){
+hMBtn.on('click', function () {
     hamMenu.toggle();
 })
-closeBtn.on('click', function(){
+closeBtn.on('click', function () {
     hamMenu.toggle();
 })
 
@@ -34,6 +34,19 @@ $(() => {
         $('.popup').hide();
     });
 });
+
+/* 햄버거 메뉴 애니메이션 */
+// let btnSpan = $('.menuMain button span')
+// let btnT = $('.menuMain button span::before');
+// let btnB = $('.menuMain button span::after');
+
+// btnSpan.on(
+//     'mouseEnter', function(){
+//         btnT.css('left', '0'),
+//         btnB.css('left', '0');
+//     }
+// )
+
 
 
 /* 서브배너/ 전시 */
@@ -173,21 +186,17 @@ newBtnObj.on('click', function () {
 });
 
 
-/* 팝업 슬라이드 구현 */
-
-
-
 /* 푸터 사이트 버튼 구현 */
 let siteButton1 = $('.footerMore .site1 button');
 let siteButton2 = $('.footerMore .site2 button');
 let siteButton3 = $('.footerMore .site3 button');
 
-siteButton1.on('click', function(){
+siteButton1.on('click', function () {
     $('.flexRow .site1 ul').toggle();
 })
-siteButton2.on('click', function(){
+siteButton2.on('click', function () {
     $('.flexRow .site2 ul').toggle();
 })
-siteButton3.on('click', function(){
+siteButton3.on('click', function () {
     $('.flexRow .site3 ul').toggle();
 })
