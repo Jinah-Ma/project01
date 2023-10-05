@@ -8,22 +8,34 @@ body {
     min-width: 1240px;
 }
 
-/* ======= 스킵메뉴 ========= */
-.skipMenu{width: 100%; position: relative;}
-.skipMenu dt{font-size: 0;}
-.skipMenu dd a{color: #fff; position: absolute; width: auto; left: 5.7rem; top: -2.6rem; display: block; height: 2.6rem;}
-/* .skipMenu{display: none;} */
-.skipMenu dd a:focus{top: 0; height: 2.6; line-height: 1.4; border: 2px dotted #fff; padding: 0 0.5rem;}
-
-
 a {
-    outline: none;
+    outline: 2px solid transparent;
     z-index: 999;
 }
 
 a:focus {
     width: auto;
-    border: 2px dotted #222;
+    outline: 2px dotted #333;
+}
+
+/* ============ 스킵메뉴 ============= */
+
+.skipMenu dd a {
+    display: block;
+    position: absolute;
+    top: -100px;
+    left: 0;
+    z-index: 10000000;
+    width: 100%;
+    background: #333;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.skipMenu dd a:focus {
+    top: 0px;
 }
 
 /* ============ 햄버거메뉴 ============= */
@@ -98,7 +110,7 @@ a:focus {
     display: block;
     width: 12rem;
     font-size: 1.4rem;
-    border-bottom: 2px solid #00A4B7;
+    border-bottom: 2px solid #00a4b7;
     padding-top: 1rem;
 }
 
@@ -121,11 +133,11 @@ a:focus {
     display: block;
     width: 12rem;
     margin-left: 1rem;
-    color: rgba(255, 255, 255, .8);
+    color: rgba(255, 255, 255, 0.8);
 }
 
 .flexInfo {
-    border-top: 2px solid rgba(255, 255, 255, .2);
+    border-top: 2px solid rgba(255, 255, 255, 0.2);
 }
 
 .flexInfo a {
@@ -169,7 +181,6 @@ a:focus {
     cursor: pointer;
 }
 
-
 /* ======== fp-nav =========== */
 #fp-nav .fp-tooltip {
     display: flex !important;
@@ -194,7 +205,6 @@ a:focus {
 #fp-nav li {
     margin-bottom: 1rem !important;
 }
-
 
 /*============= header =============*/
 header {
@@ -430,8 +440,6 @@ ul.headerText a:hover {
     margin-top: 12px;
 }
 
-
-
 /* ========= wrap ================== */
 #wrap {
     width: 100%;
@@ -453,7 +461,7 @@ ul.headerText a:hover {
     z-index: 999;
     width: 40rem;
     height: 13rem;
-    background: rgba(255, 255, 255, .8);
+    background: rgba(255, 255, 255, 0.8);
     top: 20%;
     left: 50%;
     transform: translateX(-50%);
@@ -481,7 +489,6 @@ ul.headerText a:hover {
     top: 2rem;
     right: 2rem;
 }
-
 
 /* 메인배너 */
 .mainBanner {
@@ -521,7 +528,7 @@ ul.headerText a:hover {
     display: block;
     width: 100%;
     height: 110vh;
-    object-fit: cover
+    object-fit: cover;
 }
 
 /* 페이지 숫자 */
@@ -532,8 +539,8 @@ ul.headerText a:hover {
     font-size: 1.2rem;
     color: #222 !important;
     opacity: 1 !important;
-    background: rgba(255, 255, 255, .8) !important;
-    border: 1px solid rgba(255, 255, 255, .8) !important;
+    background: rgba(255, 255, 255, 0.8) !important;
+    border: 1px solid rgba(255, 255, 255, 0.8) !important;
 }
 
 .swiper-pagination-bullet-active {
@@ -643,7 +650,6 @@ ul.headerText a:hover {
     padding-bottom: 0.2rem;
 }
 
-
 /* 스크롤 다운 1 */
 .mainBanner .scroll {
     position: absolute;
@@ -661,7 +667,6 @@ ul.headerText a:hover {
     margin-left: -2.3rem;
     user-select: none;
 }
-
 
 /* ======== section2 전시 */
 .sabBanner {
@@ -686,7 +691,7 @@ ul.headerText a:hover {
     font-size: 2.2rem;
     user-select: none;
     text-decoration: none;
-    border-bottom: 10px solid #00A4B7;
+    border-bottom: 10px solid #00a4b7;
     margin-left: 6rem;
 }
 
@@ -884,7 +889,6 @@ ul.headerText a:hover {
     user-select: none;
 }
 
-
 /* ======== section3 교육문화 */
 .contentsSlide {
     width: 100%;
@@ -909,7 +913,7 @@ ul.headerText a:hover {
     font-size: 2.2rem;
     user-select: none;
     text-decoration: none;
-    border-bottom: 10px solid #00A4B7;
+    border-bottom: 10px solid #00a4b7;
     margin-right: 6rem;
 }
 
@@ -1142,7 +1146,7 @@ ul.headerText a:hover {
     margin-top: 3rem;
     width: 8rem;
     margin-bottom: 1.5rem;
-    border-bottom: 10px solid #00A4B7;
+    border-bottom: 10px solid #00a4b7;
     font-size: 1.6rem;
 }
 
@@ -1213,7 +1217,7 @@ ul.headerText a:hover {
     font-size: 0.9rem;
     margin-left: 55rem;
     padding: 0.6rem 1rem;
-    border: 1px solid rgba(0, 0, 0, .5);
+    border: 1px solid rgba(0, 0, 0, 0.5);
     color: #666;
 }
 
@@ -1255,7 +1259,7 @@ ul.headerText a:hover {
     margin-top: 5rem;
     width: 3rem;
     margin-bottom: 1.5rem;
-    border-bottom: 10px solid #00A4B7;
+    border-bottom: 10px solid #00a4b7;
     font-size: 1.6rem;
     user-select: none;
 }
@@ -1361,7 +1365,7 @@ ul.headerText a:hover {
 .mainNews .title .tList {
     display: flex;
     padding: 0.8rem 0;
-    border-bottom: 1px solid rgba(0, 0, 0, .1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .mainNews .title .tList .innerT {
@@ -1422,7 +1426,6 @@ ul.headerText a:hover {
     display: none;
 }
 
-
 /* 영상/카드 뉴스 */
 .mainCardNews h3 {
     font-size: 1.2rem;
@@ -1457,7 +1460,6 @@ ul.headerText a:hover {
     width: 164px;
     height: 164px;
 }
-
 
 /* 뉴스레터 */
 .mainNewsLetter h3 {
@@ -1500,7 +1502,7 @@ ul.headerText a:hover {
 
 .mainNewsLetter .cardFlex::before {
     content: '';
-    border-left: 1px solid rgba(0, 0, 0, .1);
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
     margin-right: -1.1rem;
 }
 
@@ -1552,7 +1554,7 @@ ul.headerText a:hover {
     width: 8rem;
     font-size: 2rem;
     user-select: none;
-    border-bottom: 10px solid #00A4B7;
+    border-bottom: 10px solid #00a4b7;
     margin: auto;
     margin-top: 6rem;
     margin-left: 48.5%;
@@ -1580,7 +1582,7 @@ ul.headerText a:hover {
 
 .footerInfo .grid h4 {
     width: 35rem;
-    border-bottom: 1px solid rgba(255, 255, 255, .3);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 table {
@@ -1607,7 +1609,7 @@ table tr td {
 
 .time tr th {
     width: 17rem;
-    border-right: 1px solid rgba(255, 255, 255, .3);
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 /* reast휴관 */
@@ -1625,7 +1627,7 @@ table tr td {
 
 .reast table tr th:first-child {
     width: 13rem;
-    border-right: 1px solid rgba(255, 255, 255, .3);
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .reast table tr th:last-child {
@@ -1653,7 +1655,7 @@ table tr td {
 
 .question table tr th {
     width: 13rem;
-    border-right: 1px solid rgba(255, 255, 255, .3);
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .question table tr td {
@@ -1674,7 +1676,7 @@ table tr td {
     color: #fff;
     font-size: 1.2rem;
     padding: 0.8rem 1rem;
-    border: 1px solid rgba(255, 255, 255, .3);
+    border: 1px solid rgba(255, 255, 255, 0.3);
 }
 
 .siteMore a:hover {
@@ -1789,13 +1791,13 @@ table tr td {
 
 .infoFlex li:not(:last-child) a::after {
     content: '';
-    border: 1px solid rgba(0, 0, 0, .1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
     margin-left: 1rem;
     font-size: 0.5rem;
 }
 
 .infoFlex li:nth-child(2) a {
-    color: #00A4B7;
+    color: #00a4b7;
     font-weight: 600;
 }
 
@@ -1818,7 +1820,7 @@ table tr td {
 
 .addressFlex a::before {
     content: '';
-    border: 1px solid rgba(0, 0, 0, .1);
+    border: 1px solid rgba(0, 0, 0, 0.1);
     margin-right: 1rem;
     font-size: 0.5rem;
 }

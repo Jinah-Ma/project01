@@ -11,7 +11,6 @@
 
         gtag('config', 'G-5G94QRFKNB');
     </script>
-
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="국립해양박물관 학습용 첫번째 프로젝트 구현 페이지입니다. 국립해양박물관과 무관하며, 구직용 포트폴리오로 상업적 목적이 없습니다.">
@@ -21,14 +20,10 @@
     <meta property="og:image" content="./img/meta/og_img.png">
     <meta property="og:site_name" content="마진아의 첫번째 프로젝트">
     <meta property="og:description" content="국립해양박물관 학습용 첫번째 프로젝트 구현 페이지입니다. 국립해양박물관과 무관하며, 구직용 포트폴리오로 상업적 목적이 없습니다.">
-
     <title>국립해양박물관_프로젝트1</title>
-
     <link rel="stylesheet" type="text/css" href="./css/jquery.fullPage.css">
-
     <link rel="stylesheet" href="./css/reset.css">
     <link rel="stylesheet" href="./css/main.css">
-
     <!-- 파비콘 -->
     <link rel="shortcut icon" href="./img/favicon/favicon.ico">
     <link rel="apple-touch-icon" sizes="57x57" href="./img/favicon//apple-icon-57x57.png">
@@ -48,18 +43,25 @@
     <meta name="msapplication-TileColor" content="#ffffff">
     <meta name="msapplication-TileImage" content="./img/favicon//ms-icon-144x144.png">
     <meta name="theme-color" content="#ffffff">
-
     <!-- 풀페이지 슬라이드 -->
-    <script src="https://code.jquery.com/jquery-2.2.4.js"
-        integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
     <script src="./js/jquery.fullPage.js"></script>
-
-
     <!-- 스와이퍼 슬라이드 -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.css">
 </head>
 
 <body>
+    <dl class="skipMenu">
+        <dt class="blind"><strong>바로가기 메뉴</strong></dt>
+        <dd class="show"><a href="#exhibition" title="기획전시 바로가기">기획전시 바로가기</a></dd>
+    </dl>
+    <div class="popup">
+        <div class="textbox">
+            <div class="text1">해당 사이트는 학습용으로 제작되었으며 국립해양박물관과 무관합니다.</div>
+            <div class="text2">구직용 포트폴리오로 상업적 의도와 목적이 없음을 밝힙니다.</div>
+        </div>
+        <div><a href="#" class="close"><img src="./img/icon/close-icon.svg" alt=""></a></div>
+    </div> <!-- //popup -->
     <div class="hamMenu">
         <div class="overay">
             <img src="./img/icon/close_searchlayer.png" alt="닫기버튼">
@@ -328,7 +330,6 @@
                     </li> <!-- //정보공개 -->
                 </ul>
                 <!-- //햄버거 메뉴 -->
-
                 <div class="flexInfo">
                     <p><strong class="smtitle">이용약관</strong></p>
                     <div class="textbox">
@@ -349,12 +350,7 @@
         </div>
     </div>
     <!-- //클래스 햄버거 추가 -->
-
     <header>
-        <dl class="skipMenu">
-            <dt class="blind"><strong>바로가기 메뉴</strong></dt>
-            <dd class="show"><a href="#section2" title="기획전시 바로가기">기획전시 바로가기</a></dd>
-        </dl>
         <nav>
             <ul id="menuTop">
                 <li><a href="#">로그인</a></li>
@@ -362,20 +358,16 @@
                 <li>
                     <ul class="snsmore">
                         <li class="sns blog"><a href="https://blog.naver.com/museum4you">네이버 블로그 바로가기</a></li>
-                        <li class="sns youtube"><a href="https://www.youtube.com/channel/UCsJTpbVrC1tMEhRvwpEAW1g">유튜브
-                                바로가기</a></li>
+                        <li class="sns youtube"><a href="https://www.youtube.com/channel/UCsJTpbVrC1tMEhRvwpEAW1g">유튜브 바로가기</a></li>
                         <li class="sns instar"><a href="https://www.instagram.com/_mmkofficial_/">인스타 바로가기</a></li>
                         <li class="sns face"><a href="https://www.facebook.com/museum4u">페이스북바로가기</a></li>
                     </ul>
                 </li> <!-- //sns -->
-
                 <li class="nth4"><a href="#"><span>해양도서관</span> 바로가기</a></li>
-
                 <li>
                     <ul class="language">
                         <li>
-                            <button type="button" title="언어설정">Language
-                                <img src="./img/icon/ic_arrow_w2.png" alt="">
+                            <button type="button" title="언어설정">Language <img src="./img/icon/ic_arrow_w2.png" alt="">
                             </button>
                             <ul class="Language">
                                 <li><a href="#" target="_blank" title="새창으로 열기">ENGLISH</a></li>
@@ -388,16 +380,13 @@
                     </ul>
                 </li> <!-- 언어 -->
             </ul> <!-- //첫번째 헤더 -->
-
             <ul class="menuMain">
                 <li>
                     <button class="btnSpan" type="button">
                         <span>전체메뉴 열기</span>
                     </button>
                 </li> <!-- 햄버거 버튼 -->
-
-                <li><a href="https://jinah-ma.github.io/project01/"><img src="./img/icon/logo6_1_majinah.png.jpg"
-                            alt="MMK국립해양박물관"></a></li>
+                <li><a href="https://jinah-ma.github.io/project01/"><img src="./img/icon/logo6_1_majinah.png.jpg" alt="MMK국립해양박물관"></a></li>
                 <li>
                     <ul class="headerText">
                         <li><a href="#">관람정보</a></li>
@@ -412,17 +401,8 @@
             </ul> <!-- //두번째 헤더 -->
         </nav>
     </header>
-
     <div id="wrap">
-
         <div class="section mainBanner swiper mySwiper swiper1 swiper-container" data-anchor="section1">
-            <div class="popup">
-                <div class="textbox">
-                    <div class="text1">해당 사이트는 학습용으로 제작되었으며 국립해양박물관과 무관합니다.</div>
-                    <div class="text2">구직용 포트폴리오로 상업적 의도와 목적이 없음을 밝힙니다.</div>
-                </div>
-                <div><a href="#" class="close" tabindex="1"><img src="./img/icon/close-icon.svg" alt=""></a></div>
-            </div> <!-- //popup -->
             <div class="banner swiper-wrapper">
                 <div class="swiper-slide">
                     <a href="#" target="_blank"><img src="./img/main_banner_1.jpg" alt="모두의 바다, 같이의 가치"></a>
@@ -450,7 +430,6 @@
                     <p>About MMK</p>
                 </div> <!-- //5 -->
             </div> <!-- //메인배너 -->
-
             <div class="controll-box1">
                 <div class="swiper-button-prev">
                     <img src="./img/icon/main_prev.png" alt="이전 페이지">
@@ -472,7 +451,7 @@
             </div> <!-- //스크롤다운 -->
         </div>
         <!-- //메인배너 -->
-        <div class="section sabBanner" data-anchor="section2">
+        <div class="section sabBanner" data-anchor="section2" id="exhibition">
             <div class="topText">
                 <h1><a href="#" target="_blank">전시</a></h1>
                 <div class="cardNum">
@@ -481,7 +460,6 @@
                     <div class="font threeCard"><a href="#">3</a></div>
                 </div>
             </div> <!-- 텍스트 -->
-
             <div class="oneContents active">
                 <div class="inner">
                     <div class="oneText">
@@ -496,7 +474,6 @@
                     <img src="./img/sub_banner_1_1.jpg" alt="">
                 </div>
             </div> <!-- //첫번째 콘텐츠 -->
-
             <div class="twoContents">
                 <div class="inner">
                     <div class="twoText">
@@ -512,7 +489,6 @@
                     <img src="./img/sub_banner_2.jpg" alt="">
                 </div>
             </div> <!-- //두번째 컨텐츠 -->
-
             <div class="threeContents">
                 <div class="inner">
                     <div class="threeText">
@@ -525,17 +501,14 @@
                         <a href="#">자세히 보기 &RightArrow;</a>
                     </div>
                     <img src="./img/sub_banner_3_1.jpg" alt="">
-
                 </div>
             </div> <!-- //세번째 컨텐츠 -->
-
             <div class="scroll">
                 <p>SCROLL DOWN</p>
                 <a href="#section3"><img src="./img/icon/ic_arrow2.png" alt="다음 페이지"></a>
             </div> <!-- //스크롤다운 -->
         </div>
         <!-- //서브 배너/ 전시 -->
-
         <div class="section contentsSlide" data-anchor="section3">
             <div class="topText2">
                 <h2><a href="#" target="_blank">교육문화</a></h2>
@@ -545,7 +518,6 @@
                     <div class="threeCard2"><a href="#">3</a></div>
                 </div>
             </div> <!-- 텍스트 -->
-
             <div class="oneContents2 active2">
                 <div class="inner">
                     <img src="./img/contents_slide_1.jpg" alt="">
@@ -590,7 +562,6 @@
                     </div>
                 </div>
             </div> <!-- //세번째 컨텐츠 -->
-
             <div class="scroll">
                 <p>SCROLL DOWN</p>
                 <a href="#section4"><img src="./img/icon/ic_arrow2.png" alt="다음 페이지"></a>
@@ -634,7 +605,6 @@
                 </ul>
             </div>
             <a href="#" target="_blank" class="lastA">주요 소장품 더보기 &rightarrow;</a>
-
             <div class="scroll">
                 <p class="sd">SCROLL DOWN</p>
                 <p><a href="#section5"><img src="./img/icon/ic_arrow2.png" alt="다음 페이지"></a></p>
@@ -813,7 +783,6 @@
                         </ul>
                     </div>
                 </div><!-- //메인뉴스 -->
-
                 <div class="mainPopup swiper mySwiper swiper2 swiper-container">
                     <h3>팝업</h3>
                     <div class="slidePopup slider2 swiper-wrapper">
@@ -846,7 +815,6 @@
                         </div>
                     </div>
                 </div><!-- //팝업뉴스 -->
-
                 <div class="mainCardNews">
                     <h3>영상/카드 뉴스</h3>
                     <div class="cardFlex">
@@ -866,29 +834,24 @@
                         </ul>
                     </div>
                 </div><!-- //영상카드 뉴스 -->
-
                 <div class="mainNewsLetter">
                     <h3>뉴스레터</h3>
                     <div class="cardFlex">
                         <ul class="list1">
-                            <li><a href="#"><img src="./img/newsletter/new1.jpg" alt="뉴스레터 66호(23년 9월)"
-                                        class="zoom"></a></li>
+                            <li><a href="#"><img src="./img/newsletter/new1.jpg" alt="뉴스레터 66호(23년 9월)" class="zoom"></a></li>
                             <li>뉴스레터 66호(23년 9월)</li>
                         </ul>
                         <ul class="list2">
-                            <li><a href="#"><img src="./img/newsletter/new2.jpg" alt="뉴스레터 65호(23년 8월)"
-                                        class="zoom"></a></li>
+                            <li><a href="#"><img src="./img/newsletter/new2.jpg" alt="뉴스레터 65호(23년 8월)" class="zoom"></a></li>
                             <li>뉴스레터 65호(23년 8월)</li>
                         </ul>
                         <ul class="list3">
-                            <li><a href="#"><img src="./img/newsletter/new3.jpg" alt="뉴스레터 64호(23년 7월)"
-                                        class="zoom"></a></li>
+                            <li><a href="#"><img src="./img/newsletter/new3.jpg" alt="뉴스레터 64호(23년 7월)" class="zoom"></a></li>
                             <li>뉴스레터 64호(23년 7월)</li>
                         </ul>
                     </div>
                 </div> <!-- //뉴스레터 -->
             </div>
-
             <div class="scroll">
                 <p class="sd">SCROLL DOWN</p>
                 <p><a href="#section6"><img src="./img/icon/ic_arrow2.png" alt="다음 페이지"></a></p>
@@ -932,8 +895,7 @@
                                 <th>매주 월요일</th>
                             </tr>
                         </table>
-                        <p>- 단, 월요일이 공휴일일 때에는 공휴일 다음의 첫 번째 평일에 휴관합니다.
-                            (「관공서의 공휴일에 관한 규정」 제2조)</p>
+                        <p>- 단, 월요일이 공휴일일 때에는 공휴일 다음의 첫 번째 평일에 휴관합니다. (「관공서의 공휴일에 관한 규정」 제2조)</p>
                     </div> <!-- //reast -->
                     <div class="pay">
                         <h4><img src="./img/icon/ic_g3.png" alt="">관람료</h4>
@@ -991,15 +953,12 @@
                             <li><a href="#" target="_blank" title="새창으로 열기">한국해양대학교 해양박물관</a></li>
                         </ul>
                     </div> <!-- //site1 -->
-
                     <div class="site site2">
                         <button>세계해양박물관<img src="./img/icon/ic_select_arrow.png" alt=""></button>
                         <ul>
-                            <li><a href="#" target="_blank" title="새창으로 열기">Intermationales Maritimes Museum
-                                    Hamburg(독일)</a>
+                            <li><a href="#" target="_blank" title="새창으로 열기">Intermationales Maritimes Museum Hamburg(독일)</a>
                             </li>
-                            <li><a href="#" target="_blank" title="새창으로 열기">Eesti Meremuseum Estonial Maritime
-                                    Museum(에스토니아)</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">Eesti Meremuseum Estonial Maritime Museum(에스토니아)</a></li>
                             <li><a href="#" target="_blank" title="새창으로 열기">Royal Museums Greenwich(영국)</a></li>
                             <li><a href="#" target="_blank" title="새창으로 열기">National Maritime Museum in Gdansk(폴란드)</a>
                             </li>
@@ -1010,8 +969,7 @@
                             </li>
                             <li><a href="#" target="_blank" title="새창으로 열기">American Museum of Natural History(미국)</a>
                             </li>
-                            <li><a href="#" target="_blank" title="새창으로 열기">Royal Belgian Institute of Natural
-                                    Sciences(벨기에)</a></li>
+                            <li><a href="#" target="_blank" title="새창으로 열기">Royal Belgian Institute of Natural Sciences(벨기에)</a></li>
                             <li><a href="#" target="_blank" title="새창으로 열기">Natural History Museum(영국)</a></li>
                             <li><a href="#" target="_blank" title="새창으로 열기">Naturhistorisches Museum Wien(오스트리아)</a>
                             </li>
@@ -1021,12 +979,10 @@
                             <li><a href="#" target="_blank" title="새창으로 열기">Maritime Museum of the Atlantic(캐나다)</a>
                             </li>
                             <li><a href="#" target="_blank" title="새창으로 열기">Dubrovnik Museums(크로아티아)</a></li>
-                            <li><a href="#" target="_blank" title="새창으로 열기">National Maritime Museum of Ireland
-                                    (아일랜드)</a>
+                            <li><a href="#" target="_blank" title="새창으로 열기">National Maritime Museum of Ireland (아일랜드)</a>
                             </li>
                             <li><a href="#" target="_blank" title="새창으로 열기">Maritime Museum of San Diego(미국)</a></li>
-                            <li><a href="#" target="_blank" title="새창으로 열기">Patriots Point naval & maritime
-                                    museum(미국)</a>
+                            <li><a href="#" target="_blank" title="새창으로 열기">Patriots Point naval & maritime museum(미국)</a>
                             </li>
                             <li><a href="#" target="_blank" title="새창으로 열기">Kobe Maritime Museum(일본)</a></li>
                             <li><a href="#" target="_blank" title="새창으로 열기">NYK Maritime Museum(일본)</a></li>
@@ -1035,14 +991,12 @@
                             <li><a href="#" target="_blank" title="새창으로 열기">Bergen Maritime Museum(노르웨이)</a></li>
                             <li><a href="#" target="_blank" title="새창으로 열기">New Zealand Maritime Museum(뉴질랜드)</a></li>
                             <li><a href="#" target="_blank" title="새창으로 열기">Vancouver Maritime Museum(캐나다)</a></li>
-                            <li><a href="#" target="_blank" title="새창으로 열기">THE MARITIME MUSEUM OF BRITISH
-                                    COLUMBIA(캐나다)</a>
+                            <li><a href="#" target="_blank" title="새창으로 열기">THE MARITIME MUSEUM OF BRITISH COLUMBIA(캐나다)</a>
                             </li>
                             <li><a href="#" target="_blank" title="새창으로 열기">Lake Champlain Maritime Museum(미국)</a></li>
                             <li><a href="#" target="_blank" title="새창으로 열기">Queensland Maritime Museum(호주)</a></li>
                         </ul>
                     </div> <!-- //site2 -->
-
                     <div class="site site3">
                         <button>관련기관<img src="./img/icon/ic_select_arrow.png" alt=""></button>
                         <ul>
@@ -1073,7 +1027,6 @@
                         </ul>
                     </div> <!-- //site3 -->
                 </div> <!-- //flexRow -->
-
                 <ul class="infoFlex">
                     <li><a href="#">이용약관</a></li>
                     <li><a href="#">개인정보처리방침</a></li>
@@ -1081,17 +1034,14 @@
                     <li><a href="#">이메일무단수집거부</a></li>
                     <li><a href="#">저작권정책</a></li>
                 </ul><!-- //infoFlex -->
-
                 <div class="addressFlex">
                     <address>49111 부산광역시 영도구 해양로301번길 45 (동삼동 1156)</address>
                     <a href="#">오시는길</a>
                 </div> <!-- //addressFlex -->
-
                 <p class="font">COPYRIGHTⒸ KOREA NATIONAL MAMEMO MUSEUM. ALL RIGHTS RESERVED.</p>
             </div>
         </div><!-- //정보 -->
     </div>
-
     <!-- 스와이퍼 -->
     <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
     <script src="./js/swiper.js"></script>
