@@ -567,7 +567,7 @@ ul.headerText a:hover {
 
 /* 재생정지버튼 */
 .controll-box1 .swiper-button-pause {
-    position: absolute;
+    position: fixed;
     top: 768px;
     left: 192px;
     z-index: 9999;
@@ -576,7 +576,7 @@ ul.headerText a:hover {
 }
 
 .controll-box1 .swiper-button-play {
-    position: absolute;
+    position: fixed;
     top: 768px;
     left: 192px;
     z-index: 9999;
@@ -595,6 +595,7 @@ ul.headerText a:hover {
     padding-right: 1.2rem;
     background-color: #222;
     margin-top: 0 !important;
+    position: fixed !important;
     top: 768px !important;
     left: 144px !important;
 }
@@ -608,8 +609,9 @@ ul.headerText a:hover {
     padding-right: 1.2rem;
     background-color: #222;
     margin-top: 0 !important;
+    position: fixed !important;
     top: 768px !important;
-    right: 1620px !important;
+    left: 242px !important;
 }
 
 /* 메인배너 문구 */
