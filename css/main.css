@@ -395,7 +395,7 @@ button span::before {
     position: absolute;
     top: -10px;
     left: -6px;
-    transition: all 0.3s ease;
+    
 }
 
 button span::after {
@@ -409,6 +409,7 @@ button span::after {
     left: -6px;
     transition: all 0.3s ease;
 }
+
 
 /* 로고 */
 ul.menuMain>li>a {
@@ -655,7 +656,7 @@ ul.headerText a:hover {
 /* 스크롤 다운 1 */
 .mainBanner .scroll {
     position: absolute;
-    bottom: 0;
+    bottom: 2rem;
     left: 50%;
     transform: translate(-50%);
     cursor: pointer;
@@ -877,7 +878,7 @@ ul.headerText a:hover {
 /* 스크롤 다운 2 */
 .sabBanner .scroll {
     position: absolute;
-    bottom: 0;
+    bottom: 2rem;
     left: 50%;
     transform: translate(-50%);
     cursor: pointer;
@@ -1122,7 +1123,7 @@ ul.headerText a:hover {
 /* 스크롤 다운 3 */
 .contentsSlide .scroll {
     position: absolute;
-    bottom: 0;
+    bottom: 2rem;
     left: 50%;
     transform: translate(-50%);
     cursor: pointer;
@@ -1145,7 +1146,7 @@ ul.headerText a:hover {
 /* 타이틀 */
 .contentsImg h2 {
     margin-left: 56rem;
-    margin-top: 3rem;
+    margin-top: 1rem;
     width: 8rem;
     margin-bottom: 1.5rem;
     border-bottom: 10px solid #00a4b7;
@@ -1230,7 +1231,7 @@ ul.headerText a:hover {
 /* 스크롤 다운 4 */
 .contentsImg .scroll {
     position: absolute;
-    bottom: 0;
+    bottom: 2rem;
     left: 50%;
     transform: translate(-50%);
     cursor: pointer;
@@ -1465,7 +1466,7 @@ ul.headerText a:hover {
 
 /* 뉴스레터 */
 .mainNewsLetter h3 {
-    font-size: 1.2rem;
+    font-size: 0.5rem;
     font-weight: 600;
     margin-bottom: 0.2rem;
 }
@@ -1515,6 +1516,7 @@ ul.headerText a:hover {
 
 .news .scroll {
     position: absolute;
+    bottom: 2rem;
     left: 50%;
     transform: translate(-50%);
     cursor: pointer;
