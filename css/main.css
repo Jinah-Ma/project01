@@ -1790,7 +1790,7 @@ table tr td {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    margin-top: 1rem;
+    margin-top: -0.5rem;
 }
 
 .infoFlex li:not(:last-child) a::after {
@@ -1804,6 +1804,23 @@ table tr td {
     color: #00a4b7;
     font-weight: 600;
 }
+
+.infoFlex li a{
+    font-size: 0.8rem !important;
+}
+address{
+    font-size: 0.8rem !important;
+}
+.addressFlex{
+    margin-top: -0.5rem;
+}
+.addressFlex a{
+    font-size: 0.8rem !important;
+}
+.footerMore p {
+    font-size: 0.8rem !important;
+}
+
 
 /* addressFlex */
 .addressFlex {
