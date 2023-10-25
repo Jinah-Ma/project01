@@ -1701,10 +1701,14 @@ table tr td {
 
 /* =========== footerMore 푸터 주요정보들과 사이트들 */
 /* 기본설정 */
+.section.fp-auto-height {
+    height: 14rem !important;
+    margin-top: -1.5rem;
+}
+
 .fp-auto-height .fp-tableCell .inner .flexRow {
     display: flex;
     gap: 2rem;
-    margin-top: 2rem;
     margin-left: 8rem;
     margin-right: 8rem;
 }
