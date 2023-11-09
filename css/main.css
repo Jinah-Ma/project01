@@ -1716,6 +1716,7 @@ table tr td {
 .fp-auto-height .fp-tableCell .inner .flexRow .site {
     display: flex;
     flex-direction: column;
+    margin-top: 1.8rem;
 }
 
 .fp-tableCell ul li a {
@@ -1882,3 +1883,6 @@ p.font {
         transform: translateY(-5px);
     }
 }
+
+/* test */
+.test{text-align: center;}
