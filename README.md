@@ -11,7 +11,8 @@ https://drive.google.com/file/d/141mT4Bx7_LU9bBWjZ8YKTofaIxxSDdyg/view?usp=drive
 - 기획서 보기
 - 콘셉트 도출
 - 로고 리디자인
-- -리디자인 프로토타입
+- 리디자인 프로토타입
+-  특징
 - 브라우저 호환성
 - 기술사양
 - 연락처
@@ -29,6 +30,10 @@ https://drive.google.com/file/d/141mT4Bx7_LU9bBWjZ8YKTofaIxxSDdyg/view?usp=drive
 ## 프로토타입
 ![](./img/readme/wrap.jpg)
 ▶ 리디자인한 프로토타입
+
+## 특징
+- scroll snap
+- fullpage
 
 ## 브라우저 호환성
 - Chrome
