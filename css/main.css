@@ -467,7 +467,7 @@ ul.headerText a:hover {
     left: 50%;
     transform: translateX(-50%);
     border-radius: 10px;
-    backdrop-filter: blur(20px);
+    -webkit-backdrop-filter: blur(20px);
     box-shadow: 0px 0px 5px #222;
 }
 
