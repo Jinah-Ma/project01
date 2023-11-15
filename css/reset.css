@@ -1,7 +1,7 @@
-@charset "utf-8"; 
+@charset "utf-8";
 
 /* 폰트 */
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100; 200; 300; 400; 500; 600; 700; 800; 900&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;200;300;400;500;600;700;800;900&display=swap');
 
 
 /* 초기화 코드 */
@@ -85,15 +85,15 @@ summary,
 time,
 mark,
 audio,
-video { 
- margin: 0; 
- padding: 0; 
- border: 0; 
- font-size: 62.5%; 
- font: inherit; 
- vertical-align: baseline; 
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 62.5%;
+    font: inherit;
+    vertical-align: baseline;
 
- } 
+}
 
 /* HTML5 display-role reset for older browsers */
 article,
@@ -106,123 +106,123 @@ header,
 hgroup,
 menu,
 nav,
-section { 
- display: block; 
- } 
+section {
+    display: block;
+}
 
-html { 
- overflow-y: scroll; 
- overflow-x: hidden; 
- font-weight: 400; 
- } 
+html {
+    overflow-y: scroll;
+    overflow-x: hidden;
+    font-weight: 400;
+}
 
-body { 
- line-height: 1.75; 
- font-size: 1.6rem; 
- font-family: 'Noto Sans KR', sans-serif; 
+body {
+    line-height: 1.75;
+    font-size: 1.6rem;
+    font-family: 'Noto Sans KR', sans-serif;
 
- } 
+}
 
 body,
 a,
 input,
-table { 
- font-size: 1.6rem; 
- font-family: 'Noto Sans KR', sans-serif; 
- } 
+table {
+    font-size: 1.6rem;
+    font-family: 'Noto Sans KR', sans-serif;
+}
 
 ol,
-ul { 
- list-style: none; 
- } 
+ul {
+    list-style: none;
+}
 
 blockquote,
-q { 
- quotes: none; 
- } 
+q {
+    quotes: none;
+}
 
 blockquote:before,
 blockquote:after,
 q:before,
-q:after { 
- content: ''; 
- content: none; 
- } 
+q:after {
+    content: '';
+    content: none;
+}
 
-table { 
- border-collapse: collapse; 
- border-spacing: 0; 
- } 
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
 
 /* 추가 */
 
-* { 
- margin: 0; 
- padding: 0; 
- border-radius: 0; 
- box-sizing: border-box; 
- } 
+* {
+    margin: 0;
+    padding: 0;
+    border-radius: 0;
+    box-sizing: border-box;
+}
 
 ul,
 li,
 lo,
 dt,
 dd,
-dl { 
- list-style: none; 
- } 
+dl {
+    list-style: none;
+}
 
-a { 
- color: #222; 
- font-size: 1.6rem; 
- } 
+a {
+    color: #222;
+    font-size: 1.6rem;
+}
 
 a:link,
-a:visited { 
- color: #222; 
- } 
+a:visited {
+    color: #222;
+}
 
-img { 
- border: 0; 
- vertical-align: top; 
- } 
+img {
+    border: 0;
+    vertical-align: top;
+}
 
-a { 
- text-decoration: none; 
- color: #222; 
- } 
+a {
+    text-decoration: none;
+    color: #222;
+}
 
-a:hover { 
- text-decoration: underline; 
- } 
+a:hover {
+    text-decoration: underline;
+}
 
 
 
 
 h1,
-.h1 { 
- font-size: 3rem; 
- } 
+.h1 {
+    font-size: 3rem;
+}
 
 h2,
-.h2 { 
- font-size: 2.5rem; 
- } 
+.h2 {
+    font-size: 2.5rem;
+}
 
-.title_1 { 
- font-size: 2rem; 
- } 
+.title_1 {
+    font-size: 2rem;
+}
 
-.main_1 { 
- font-size: 1.6rem; 
- } 
+.main_1 {
+    font-size: 1.6rem;
+}
 
 .link,
-.info_1 { 
- font-size: 1.4rem; 
- } 
+.info_1 {
+    font-size: 1.4rem;
+}
 
 .caption,
-.info_2 { 
- font-size: 0.9rem; 
- } 
+.info_2 {
+    font-size: 0.9rem;
+}
